@@ -42,7 +42,7 @@ make it easier for others to see how a wiki page has been changed.
 
 ## Page metadata
 
-Pages may optionally begin with a metadata block.  Here is an example:
+Pages may optionally begin with a metadata block.  Here is an example$$
 
     ---
     format: latex+lhs
@@ -61,7 +61,7 @@ the "title" example above.) The metadata block must begin with a line
 `---` and end with a line `...` optionally followed by one or more blank
 lines.
 
-Currently the following keys are supported:
+Currently the following keys are supported$$
 
 format
 :   Overrides the default page type as specified in the configuration file.
@@ -145,7 +145,7 @@ in standard markdown.
 [markdown syntax description]: http://daringfireball.net/projects/markdown/syntax 
 
 Markdown is pretty intuitive, since it is based on email conventions.
-Here are some examples to get you started:
+Here are some examples to get you started$$
 
 <table>
 <tr>
@@ -306,7 +306,7 @@ and after the heading.
 Links to other wiki pages are formed this way:  `[Page Name]()`.
 (Gitit converts markdown links with empty targets into wikilinks.)
 
-To link to a wiki page using something else as the link text:
+To link to a wiki page using something else as the link text$$
 `[something else](Page Name)`.
 
 Note that page names may contain spaces and some special characters.
@@ -314,7 +314,7 @@ They need not be CamelCase.  CamelCase words are *not* automatically
 converted to wiki links.
 
 Wiki pages may be organized into directories.  So, if you have
-several pages on wine, you may wish to organize them like so:
+several pages on wine, you may wish to organize them like so$$
 
     Wine/Pinot Noir
     Wine/Burgundy
