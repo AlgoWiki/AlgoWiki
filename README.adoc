@@ -1,6 +1,7 @@
 :hide-uri-scheme:
 
-# AlgoWiki
+image::AlgoWiki.png[AlgoWiki logo]
+---
 
 AlgoWiki is a wiki dedicated to competitive programming. This repository
 contains source files for the wiki, but you can find the wiki itself at
