@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Canvas Painting](https://uva.onlinejudge.org/contests/354-7aa9c12a/p2.pdf) [^1]
 * [Splitting the Loot](http://codeforces.com/gym/100506)

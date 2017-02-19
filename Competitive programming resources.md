@@ -1,6 +1,3 @@
----
-...
-
 ## Books
 * [Competitive Programming 3](https://cpbook.net/) by Steven Halim and Felix Halim
 * [Competitive Programmer's Handbook](https://github.com/pllk/cphb/blob/master/kkkk.pdf) by Antti Laaksonen (in progress)

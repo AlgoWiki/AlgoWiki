@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Robots](https://open.kattis.com/problems/robots)
 

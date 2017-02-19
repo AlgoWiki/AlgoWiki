@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Binary Circles](https://projecteuler.net/problem=265)
 

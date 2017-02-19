@@ -1,6 +1,3 @@
----
-...
-
 ## Applicability
 Knuth's optimization applies when the dynamic programming recurrence is approximately of the form
 $$ \mathrm{dp}[i][j] = \min_{i<k<j} \left\{\mathrm{dp}[i][k] + \mathrm{dp}[k][j] \right\} + C[i][j], $$

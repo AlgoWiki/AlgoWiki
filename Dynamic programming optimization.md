@@ -1,6 +1,3 @@
----
-...
-
 When [dynamic programming](Dynamic programming) is used to solve an optimization problem, often it is possible to speed up the algorithm by only looking at configurations that could possibly lead to an optimal solution, or in some way looking up the best configuration quickly.
 
 ## General techniques

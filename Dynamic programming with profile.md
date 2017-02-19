@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Tri-colouring a triangular grid](https://projecteuler.net/problem=189)
 * [Land of Farms](https://icpcarchive.ecs.baylor.edu/external/72/p7255.pdf)

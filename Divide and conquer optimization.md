@@ -1,6 +1,3 @@
----
-...
-
 ## Applicability
 The divide and conquer optimization applies when the dynamic programming recurrence is approximately of the form
 $$ \mathrm{dp}[k][i] = \min_{j<i} \left\{\mathrm{dp}[k-1][j] + C[i][j] \right\}, $$

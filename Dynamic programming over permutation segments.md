@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Skyscraper](http://s3-ap-northeast-1.amazonaws.com/data.cms.ioi-jp.org/open-2016/2016-open-skyscraper-en.pdf) [^1] [^2] [^3]
 * [Ant Man](http://codeforces.com/contest/704/problem/B)

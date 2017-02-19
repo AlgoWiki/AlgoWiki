@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Road Times](https://open.kattis.com/problems/roadtimes) [^1]
 * [Freelancer's Dreams](http://codeforces.com/contest/605/problem/C) [^2]

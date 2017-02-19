@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [LUCIFER Number](http://www.spoj.com/problems/LUCIFER/)
 * [Ticket Draw](https://open.kattis.com/problems/tickets)

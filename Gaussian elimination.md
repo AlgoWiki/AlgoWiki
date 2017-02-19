@@ -1,6 +1,3 @@
----
-...
-
 Gaussian elimination works over any finite field.
 
 > TODO: Split into separate articles? Gauss over finite field, XOR-SAT, ...

@@ -1,6 +1,3 @@
----
-...
-
 ## Problems
 * [Largest Rectangle in a Histogram](http://www.spoj.com/problems/HISTOGRA/)
 * [Selling Land](https://open.kattis.com/problems/sellingland)

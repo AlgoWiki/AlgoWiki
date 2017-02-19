@@ -1,6 +1,3 @@
----
-...
-
 ## Variations
 
 ### 0/1 knapsack problem

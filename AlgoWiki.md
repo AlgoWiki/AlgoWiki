@@ -1,6 +1,3 @@
----
-...
-
 # Welcome to AlgoWiki!
 
 Welcome to AlgoWiki, a wiki dedicated to competitive programming. Here's how
