@@ -6,6 +6,7 @@ you get started:
 * See [All pages](_index) for a list of all pages.
 * See [Categories](_categories) for a list of categories.
 
+If you can't find what you're looking for on the wiki, make sure you check out other [competitive programming resources](Competitive programming resources).
 
 ## Contributing
 
@@ -14,4 +15,3 @@ We appreciate any contributions to the wiki. You can contribute either by
 the [AlgoWiki repository](https://github.com/SuprDewd/AlgoWiki) on GitHub.
 
 To learn more about editing articles, see [the Help page](Help).
-
