@@ -1,5 +1,4 @@
 ---
-toc: no
 categories: Data structure techniques
 ...
 

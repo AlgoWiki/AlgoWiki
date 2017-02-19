@@ -1,5 +1,4 @@
 ---
-toc: no
 ...
 
 # Welcome to AlgoWiki!

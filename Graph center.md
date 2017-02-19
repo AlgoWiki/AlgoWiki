@@ -1,5 +1,4 @@
 ---
-toc: no
 categories: Graph theory
 ...
 

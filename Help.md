@@ -47,7 +47,6 @@ Pages may optionally begin with a metadata block.  Here is an example$$
     ---
     format: latex+lhs
     categories: haskell math
-    toc: no
     title: Haskell and
       Category Theory
     ...

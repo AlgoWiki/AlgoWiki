@@ -1,5 +1,4 @@
 ---
-toc: no
 ...
 
 Gaussian elimination works over any finite field.
