@@ -1,6 +1,6 @@
 ## Books
 * [Competitive Programming 3](https://cpbook.net/) by Steven Halim and Felix Halim
-* [Data Structure Practice for Collegiate Programming Contests and Education](http://www3.cs.stonybrook.edu/~rezaul/Spring-2015/CSE548/Yonghui-Wu/Yonghui-Wu-books.pdf) by Yonghui Wu and Jiande Wang
+* Data Structure Practice for Collegiate Programming Contests and Education by Yonghui Wu and Jiande Wang [^1]
 * [Competitive Programmer's Handbook](https://cses.fi/book.pdf) by Antti Laaksonen (in progress)
 * [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
 
@@ -17,3 +17,5 @@
 
 ## Collections
 * [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
+
+[^1]: [Experiments for Data Structures, Algorithms and Strategies Solving Problems based on Programming Contests](http://www3.cs.stonybrook.edu/~rezaul/Spring-2015/CSE548/Yonghui-Wu/Yonghui-Wu-books.pdf)
