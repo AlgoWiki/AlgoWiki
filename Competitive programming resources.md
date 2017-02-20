@@ -1,6 +1,6 @@
 ## Books
 * [Competitive Programming 3](https://cpbook.net/) by Steven Halim and Felix Halim
-* [Competitive Programmer's Handbook](https://github.com/pllk/cphb/blob/master/kkkk.pdf) by Antti Laaksonen (in progress)
+* [Competitive Programmer's Handbook](https://cses.fi/book.pdf) by Antti Laaksonen (in progress)
 * [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
 
 ### Math-oriented
