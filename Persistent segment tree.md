@@ -18,4 +18,4 @@ categories: Data structures
 ## External links
 * [Persistent segment trees – Explained with spoj problems](https://blog.anudeep2011.com/persistent-segment-trees-explained-with-spoj-problems/)
 * [Algorithm Gym :: Everything About Segment Trees](http://codeforces.com/blog/entry/15890)
-
+* [Persistent Segment Trees HKU](https://i.cs.hku.hk/~provinci/training2016/notes4.pdf)
