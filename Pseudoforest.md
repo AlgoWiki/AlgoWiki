@@ -10,6 +10,7 @@ A **pseudoforest** is an [undirected graph](Undirected graph) in which every [co
 The concept of a pseudoforest can also be extended to include [directed graphs](Directed graph). A **directed pseudoforest** is a directed graph in which each vertex has at most one outgoing edge; that is, it has [outdegree](Vertex degree) at most one. In the special case where each vertex has outdegree exactly one, the graph is called a [functional graph](Functional graph).
 
 ## Problems
+- [Room Assignments](https://open.kattis.com/problems/roomassignments) [^5]
 - [Tug of War](http://dunjudge.me/analysis/problems/784/tug.pdf) [^1] [^2] [^3] [^4]
 
 ## See also
@@ -22,3 +23,4 @@ The concept of a pseudoforest can also be extended to include [directed graphs](
 [^2]: <http://dunjudge.me/analysis/problems/784/>
 [^3]: <http://boi2015.mimuw.edu.pl/useruploads/files/boi2015-day1.pdf>
 [^4]: <http://web.archive.org/web/20160829100520/http://www.boi2015.mimuw.edu.pl/305_Tasks>
+[^5]: <http://2009.nwerc.eu/results/solOutline.pdf>
