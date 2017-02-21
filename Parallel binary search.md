@@ -13,6 +13,7 @@ categories: Algorithm techniques
 
 ## External links
 * [Parallel Binary Search [tutorial]](http://codeforces.com/blog/entry/45578)
+* [Explanation of Parallel Binary Search](https://www.youtube.com/watch?v=UkqgAMi8D54)
 
 
 [^1]: <http://agc002.contest.atcoder.jp/data/agc/002/editorial.pdf>
