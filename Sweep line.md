@@ -28,4 +28,4 @@ categories: Algorithm techniques,Graph algorithms
 * [Plane-sweep: A general-purpose algorithm for two-dimensional problems illustrated using line segment intersection](http://www.jn.inf.ethz.ch/education/script/P6_C25.pdf)
 * [Lecture 24: Geometry](http://courses.csail.mit.edu/6.006/spring11/lectures/lec24.pdf)
 * [Intersection of a Set of Segments](http://geomalgorithms.com/a09-_intersect-3.html)
-* [Line sweep algorithms](https://apps.topcoder.com/forums/?module=Thread&threadID=684537&start=0)
+* [How to sweep like a Sir](http://codeforces.com/blog/entry/20377)
