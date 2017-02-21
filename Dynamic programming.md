@@ -19,3 +19,5 @@ See [Dynamic programming over bipartite matchings]().
 ### Dynamic programming over permutation segments
 See [Dynamic programming over permutation segments]().
 
+## External links
+* [Commonly used DP state domains](https://apps.topcoder.com/forums/?module=Thread&threadID=697369&start=0)
