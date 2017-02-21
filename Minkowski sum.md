@@ -44,7 +44,7 @@ If one polygon is convex and another one is not, the complexity of their Minkows
 ## Problems
 * [Minkowski Sums](https://projecteuler.net/problem=228)
 * [Kiddie Pool](https://code.google.com/codejam/contest/8234486/dashboard#s=p1&a=3) [^1]
-* [Board game](http://amppz.ii.uni.wroc.pl/files/zadania_en.pdf)
+* [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
 * [Fireworks](https://www.docdroid.net/eviUqH5/fireworks-en.pdf.html) [^2]
 * [Bridge Building](http://opencup.ru/files/ocf/gp13/problems1-e.pdf) [^3]
 * [Mogohu Ree Idol](http://codeforces.com/contest/87/problem/E) [^4]
