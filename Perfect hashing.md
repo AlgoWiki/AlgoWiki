@@ -8,5 +8,6 @@ categories: Data structure techniques
 * [Squadtrees](http://codeforces.com/gym/100228)
 
 ## See also
+* [Hashing]()
 * [Graph isomorphism#Trees]()
 
