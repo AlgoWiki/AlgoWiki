@@ -2,6 +2,8 @@
 categories: String data structures
 ...
 
+**Eertree**, also known as **palindromic tree**, is a data structure representing all distinct [palindromic](Palindrome) [substrings](Substring) of a [string](String).
+
 ## Problems
 * [Palindromic Contest](http://acm.timus.ru/problemset.aspx?space=276)
 * [The Number of Palindromes](http://acm.hdu.edu.cn/showproblem.php?pid=3948)
