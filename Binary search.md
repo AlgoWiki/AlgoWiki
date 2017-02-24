@@ -3,7 +3,7 @@ categories: Algorithm techniques
 ...
 
 **Binary search** is an algorithm technique based on the [Divide and conquer]() paradigm.
-The most common example of binary search is to find an element in a sorted array, which takes time logarithmic in the size of the input array.
+The most common example of binary search is to find an element in a sorted array in logarithmic time.
 
 ## Description
 Suppose you have an array $A$ of $n$ objects, and a predicate function $P$, such that for each element $a\in A$, $P(a)$ returns either $\mathrm{true}$ or $\mathrm{false}$. Thus $P$ tests some property of the elements in $A$. 
@@ -25,7 +25,7 @@ while (lo <= hi) {
 }
 ~~~
 
-At completion, $\mathrm{res}$ will be the index of the leftmost elements $a$ such that $P(a)$ is true (the index that we called $i$ above), or $-1$ if no element in the array satisfies the property. Since the value of $\mathrm{hi} - \mathrm{lo}$ decreases by roughly half on every iteration, the algorithm takes time $O(\log(n))$, where $n$ is the size of the input array $A$.
+At completion, $\mathrm{res}$ will be the index of the leftmost element $a$ such that $P(a)$ is true (the index that we called $i$ above), or $-1$ if no element in the array satisfies the property. Since the value of $\mathrm{hi} - \mathrm{lo}$ decreases by roughly half on every iteration, the algorithm takes time $O(\log(n))$, where $n$ is the size of the input array $A$.
 
 ## Applications
 
