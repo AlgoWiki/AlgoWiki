@@ -2,36 +2,50 @@
 categories: Algorithm techniques
 ...
 
-Binary search is an algorithm that uses Divide and Conquer paradigm to obtain $O(log(n))$ complexity for finding an element in a set.
+**Binary search** is an algorithm technique based on the [Divide and conquer]() paradigm.
+The most common example of binary search is to find an element in a sorted array, which takes time logarithmic in the size of the input array.
 
 ## Description
-Suppose that you have an array $a$ of objects and a property in them. Also, suppose that the objects are ordered in such a way that there is an index $i$ in them such that for all $j>i$, $a_j$ satisfies the property, and for all $j\leq i$, $a_j$ doesn't satisfy the property. We can find this index in logarithmic time with the algorithm described in the following pseudo-code:
+Suppose you have an array $A$ of $n$ objects, and a predicate function $P$, such that for each element $a\in A$, $P(a)$ returns either $\mathrm{true}$ or $\mathrm{false}$. Thus $P$ tests some property of the elements in $A$. 
 
-~~~ {.py}
-hi=len(a)
-lo=-1
+Furthermore, the array must satisfy the **binary search property**: there exists an index $i$ such that $P(a_j)$ is $\mathrm{true}$ for all $j\geq i$, and $P(a_j)$ is $\mathrm{false}$ for all $j < i$. When this holds, binary search can be used to find this index $i$, i.e. the index of the leftmost element $a$ such that $P(a)$ is true. The following pseudocode shows how.
 
-while lo+1<hi:
-    mi=(lo+hi)//2
-
-    if P(a[mi]): hi=mi
-    else: lo=mi
+~~~ {.cpp}
+int lo = 0,
+    hi = (int)A.size() - 1,
+    res = -1;
+while (lo <= hi) {
+    int mid = (lo+hi)/2;
+    if (P(A[mid])) {
+        res = mid;
+        hi = mid - 1;
+    } else {
+        lo = mid + 1;
+    }
+}
 ~~~
 
-At completion, $lo$ will be the index $i$ we looked for. (-1 means that all elements in the array satisfy the property)
+At completion, $\mathrm{res}$ will be the index of the leftmost elements $a$ such that $P(a)$ is true (the index that we called $i$ above), or $-1$ if no element in the array satisfies the property. Since the value of $\mathrm{hi} - \mathrm{lo}$ decreases by roughly half on every iteration, the algorithm takes time $O(\log(n))$, where $n$ is the size of the input array $A$.
 
 ## Applications
 
-The first application is finding elements in an array. If we have a sorted array, and we define the property $P$ as an element being greater than $k$. Due to the sorted property of the array, a binary search will allow to find the index of the last element that doesn't satisfy the property (i.e. the last element lesser than or equal to $k$) in logarithmic time.
+Say we want to find a specific element $x$ in a sorted array, or report that is not in the array. To do that, we define the property
+$$P(a) := \left\{\begin{array}{ll}
+\mathrm{true} & \textrm{if } a \geq x \\
+\mathrm{false} & \textrm{otherwise}
+\end{array}\right.$$
+Since the array is sorted, we can see that the binary search property is fulfilled: there is an index $i$ such that for all $j \geq i$, $a_j \geq x$ is true, and for all $j < i$, $a_j \geq x$ is false. Thus, using binary search we can find the index of the first element that satisfies the property in logarithmic time. If this element is equal to $x$, then we're done, otherwise (and in the case that $\mathrm{res} = -1$) we can report that $x$ is not in the array.
 
-However, there are other kinds of problems solvable by this algorithm. See this problem [Monkey](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3183). You can notice that if you have a bigger strength factor than the minimum necessary, you will be able to reach the top. If you have a smaller strength factor, then you won't be able to reach the top. Then, we can binary search $k$, and do evaluations for $O(log(n))$ different $k$ 's.
+It is also very common to use binary search when finding the minimum or maximum solution, even if there is no explicit array involved. Consider the problem [The Monkey and the Oiled Bamboo](#Problems). Notice that strength satisfies the binary search property: if we have a bigger strength factor than the minimum necessary, we will be able to reach the top, but if we have a smaller strength factor, then we won't be able to reach the top. Thus we can binary search $k$, doing $O(\log(n))$ simulations of jumping to the top to evaluate the predicate $P$ for different values of $k$.
+
+## Variants
+Binary search can also be applied over real numbers instead of integers. In that case the technique is known as the [Bisection method]().
 
 ## Problems
 * [Pie](http://www.csc.kth.se/contest/nwerc/2006/problems/nwerc06.pdf)
 * [Strip](http://codeforces.com/problemset/problem/487/B)
-* [Monkey](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=3183)
+* [The Monkey and the Oiled Bamboo](https://uva.onlinejudge.org/external/120/p12032.pdf)
 
 ## See also
 * [Parallel binary search]()
 * [Divide and conquer]()
-
