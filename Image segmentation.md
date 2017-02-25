@@ -1,3 +1,7 @@
+---
+categories: Graph algorithms
+...
+
 ## Problems
 * [Pool construction](http://2011.nwerc.eu/results/nwerc2011-problemset_2.pdf) [^1]
 * [Landscaping](http://swerc.up.pt/2015/reports/problemset.pdf) [^2]
