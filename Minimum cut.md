@@ -10,6 +10,7 @@ categories: Graph algorithms,Graph theory
 * [Maximum flow]()
 * [Maximum density subgraph]()
 * [Closure problem]()
+* [Image segmentation]()
 
 
 [^1]: <http://2011.nwerc.eu/results/nwerc2011-solutions.pdf>
