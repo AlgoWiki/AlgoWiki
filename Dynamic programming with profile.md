@@ -6,3 +6,6 @@
 
 ## See also
 * [Dynamic programming]()
+
+## External links
+* [Dynamic Programming on Broken Profile. Problem "Parquet"](https://e-maxx-eng.appspot.com/dynamic_programming/profile-dynamics.html)

@@ -5,3 +5,6 @@
 ## See also
 * [Dynamic programming]()
 * [Divide and conquer]()
+
+## External links
+* [[Tutorial] Non-trivial DP Tricks and Techniques](http://codeforces.com/blog/entry/47764)

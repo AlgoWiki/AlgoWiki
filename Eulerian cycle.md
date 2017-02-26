@@ -9,6 +9,7 @@ categories: Graph algorithms, Graph theory
 
 ## See also
 * [De Bruijn sequence]()
+* [BEST theorem]()
 
 
 [^1]: <http://codeforces.com/group/qo1icaI3vI/blog/entry/843>
