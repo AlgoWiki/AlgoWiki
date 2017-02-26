@@ -18,6 +18,7 @@ categories: String data structures
 ## External links
 * [EERTREE: An Efficient Data Structure for Processing Palindromes in Strings](http://arxiv.org/pdf/1506.04862v2.pdf)
 * [Palindromic tree](http://adilet.org/blog/25-09-14/)
+* [Palindromic tree: behind the scenes](http://codeforces.com/blog/entry/13959)
 
 
 [^1]: <https://discuss.codechef.com/questions/33450/decorate-editorial>
