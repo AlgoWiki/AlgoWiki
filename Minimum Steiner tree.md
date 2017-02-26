@@ -1,5 +1,5 @@
 ---
-categories: Graph algorithms,Graph theory
+categories: Graph algorithms, Graph theory
 ...
 
 In the minimum Steiner tree problem, we are given an edge-weighted graph $G = (V, E, w)$ and a subset $S \subseteq V$ of required vertices. A Steiner tree is a tree in $G$ that spans all vertices of $S$, meaning that they are all in the same component. The objective of the problem is to find a Steiner tree of minimum weight. The decision version of the problem is [NP-complete](NP-completeness). However, it is [fixed-parameter tractable](Fixed-parameter tractability) when parameterized by the size of $S$, as is witnessed by the dynamic programming algorithm shown below.

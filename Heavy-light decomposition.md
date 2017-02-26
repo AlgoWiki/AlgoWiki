@@ -1,5 +1,5 @@
 ---
-categories: Data structure techniques,Data structures,Graph algorithms
+categories: Data structure techniques, Data structures, Graph algorithms
 ...
 
 ## Problems

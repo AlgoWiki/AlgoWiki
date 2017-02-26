@@ -1,5 +1,5 @@
 ---
-categories: Combinatorics,Graph theory
+categories: Combinatorics, Graph theory
 ...
 
 ## Problems

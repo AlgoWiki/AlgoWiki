@@ -1,5 +1,5 @@
 ---
-categories: Graph algorithms,Graph theory
+categories: Graph algorithms, Graph theory
 ...
 
 ## Problems

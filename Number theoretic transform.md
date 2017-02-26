@@ -1,5 +1,5 @@
 ---
-categories: Number theory,Algorithms
+categories: Number theory, Algorithms
 ...
 
 A *number theoretic transform* is similar to a [fast Fourier transform](Fast Fourier transform), but instead of using complex [roots of unity](Root of unity), [roots of unity modulo $n$](Root of unity modulo n) are used. This allows computing convolutions where arithmetic is taken modulo $n$, and thus avoids using floating point numbers as is the case for fast Fourier transform.

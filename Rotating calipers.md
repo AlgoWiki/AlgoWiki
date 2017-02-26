@@ -1,5 +1,5 @@
 ---
-categories: Algorithm techniques,Geometry algorithms
+categories: Algorithm techniques, Geometry algorithms
 ...
 
 <!-- TODO: Factor this out into something reusable -->

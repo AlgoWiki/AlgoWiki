@@ -1,5 +1,5 @@
 ---
-categories: Geometry algorithms,Geometry
+categories: Geometry algorithms, Geometry
 ...
 
 ## Problems

@@ -1,5 +1,5 @@
 ---
-categories: Algorithm techniques,Graph algorithms
+categories: Algorithm techniques, Graph algorithms
 ...
 
 ## Problems
