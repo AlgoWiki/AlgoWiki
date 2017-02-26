@@ -42,8 +42,6 @@ It is also very common to use binary search when finding the minimum or maximum 
 Binary search can also be applied over real numbers instead of integers. In that case the technique is known as the [Bisection method]().
 
 ## Problems
-* [Pie](http://www.csc.kth.se/contest/nwerc/2006/problems/nwerc06.pdf)
-* [Strip](http://codeforces.com/problemset/problem/487/B)
 * [The Monkey and the Oiled Bamboo](https://uva.onlinejudge.org/external/120/p12032.pdf)
 
 ## See also
