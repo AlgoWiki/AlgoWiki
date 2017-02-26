@@ -8,6 +8,9 @@
 ## See also
 * [Dynamic programming over bipartite matchings]()
 
+## External links
+* [[Tutorial] Non-trivial DP Tricks and Techniques](http://codeforces.com/blog/entry/47764)
+
 [^1]: <http://s3-ap-northeast-1.amazonaws.com/data.cms.ioi-jp.org/open-2016/2016-open-skyscraper-sol-en.pdf>
 [^2]: <http://codeforces.com/blog/entry/45593>
 [^3]: <http://codeforces.com/blog/entry/47764>
