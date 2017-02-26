@@ -1,3 +1,7 @@
+---
+categories: Linear algebra, Combinatorics, Graph theory
+...
+
 ## Problems
 * [Organising the Organisation](https://open.kattis.com/problems/organising)
 * [Join](http://acm.timus.ru/problem.aspx?space=1&num=1627)
