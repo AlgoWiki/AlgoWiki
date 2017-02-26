@@ -9,8 +9,14 @@ categories: Algorithm techniques
 * [Jeff and Removing Periods](http://codeforces.com/problemset/problem/351/D)
 * [Tree and Queries](http://codeforces.com/problemset/problem/375/D)
 * [Sherlock and Inversions](https://www.codechef.com/problems/IITI15)
-* [Chef and Graph Queries](https://www.codechef.com/MARCH14/problems/GERALD07)
 * [Zero Query](http://www.spoj.com/problems/ZQUERY/)
+
+
+## Techniques
+It's possible to adapt Mo's algorithm to data structures that only support insertion, but not deletion. [^1]
+
+### Problems
+* [Chef and Graph Queries](https://www.codechef.com/MARCH14/problems/GERALD07)
 
 ## See also
 * [Mo's algorithm on trees](Mo's algorithm on trees)
@@ -18,4 +24,7 @@ categories: Algorithm techniques
 
 ## External links
 * [MO’s Algorithm (Query square root decomposition)](https://blog.anudeep2011.com/mos-algorithm/)
+* [Mo's algorithm](http://codeforces.com/blog/entry/7383)
+* [Mo's algorithm](https://www.hackerearth.com/practice/notes/mos-algorithm/)
 
+[^1]: <http://codeforces.com/blog/entry/7383#comment-161520>
