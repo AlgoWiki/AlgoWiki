@@ -90,9 +90,9 @@ public:
 
 
 ## Problems
+- [Bing It On](https://open.kattis.com/problems/bing)
+- [Phone List](https://open.kattis.com/problems/phonelist)
 - [Xor Queries](https://www.codechef.com/problems/XRQRS) [^1]
-- [Prefixes and Suffixes](http://codeforces.com/problemset/problem/432/D)
-- [Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)
 
 ## External links
 - [Tutorial on Trie and example problems](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems)
