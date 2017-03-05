@@ -19,4 +19,4 @@
 * [Awesome Competitive Programming](https://github.com/lnishan/awesome-competitive-programming)
 
 [^1]: [Experiments for Data Structures, Algorithms and Strategies Solving Problems based on Programming Contests](http://www3.cs.stonybrook.edu/~rezaul/Spring-2015/CSE548/Yonghui-Wu/Yonghui-Wu-books.pdf)
-[^2]: http://codeforces.com/blog/entry/50728
+[^2]: <http://codeforces.com/blog/entry/50728>
