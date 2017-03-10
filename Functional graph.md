@@ -7,6 +7,7 @@ categories: Graph theory
 - [Mafija](https://open.kattis.com/problems/mafija)
 - [Kernel Knights](http://cerc.hsin.hr/2015/tasks/cerc2015_problems.pdf) [^2]
 - [Portaler](https://po.kattis.com/problems/portaler) (Swedish)
+- [Vending Machine](https://open.kattis.com/submissions/1726415)
 - [CrazyFunctions](https://community.topcoder.com/stat?c=problem_statement&pm=14266) [^1]
 
 ## See also
