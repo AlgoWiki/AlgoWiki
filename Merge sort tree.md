@@ -1,5 +1,5 @@
 ## Problems
-- [KQUERYO](http://www.spoj.com/problems/KQUERYO/) [^1]
+- [K-Query Online](http://www.spoj.com/problems/KQUERYO/) [^1]
 
 ## See also
 - [Segment tree]()
