@@ -14,6 +14,7 @@ Time complexity is $O(n3^k + n^22^k)$.
 
 
 ## Problems
+* [Jailbreak](https://open.kattis.com/problems/jailbreak) [^1]
 * [Shovelling Snow](https://open.kattis.com/problems/shovelling)
 * [Ticket to Ride](http://www.csc.kth.se/contest/nwerc/2006/problems/nwerc06.pdf)
 * [Hexagonal Parcels](http://contest.felk.cvut.cz/07cerc/solved/h/)
@@ -25,3 +26,4 @@ Time complexity is $O(n3^k + n^22^k)$.
 ## External links
 * [The Steiner Problem in Graphs](http://sci-hub.cc/10.1002/net.3230010302)
 
+[^1]: <http://2013.bapc.eu/docs/bapc2013juryslides.pdf>
