@@ -1,3 +1,7 @@
+---
+categories: Graph algorithms
+...
+
 ## Problems
 - [Work Scheduling](http://acm.timus.ru/problem.aspx?space=1&num=1099)
 - [A game on a graph](https://www.codechef.com/problems/HAMILG) [^1]
