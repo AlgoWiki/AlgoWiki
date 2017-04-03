@@ -10,5 +10,6 @@ categories: Graph algorithms
 - [Bipartite matching]()
 
 ## External links
+- [Blossom algorithm](https://en.wikipedia.org/wiki/Blossom_algorithm)
 
 [^1]: <https://discuss.codechef.com/questions/72787/hamilg-editorial>
