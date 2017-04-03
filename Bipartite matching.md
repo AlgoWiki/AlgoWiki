@@ -14,4 +14,5 @@ categories: Graph algorithms, Graph theory
 * [Hall's marriage theorem](Hall's marriage theorem)
 * [Maximum flow]()
 * [Dynamic programming over bipartite matchings]()
-
+* [Stable marriage problem]()
+* [Blossom algorithm]()
