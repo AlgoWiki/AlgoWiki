@@ -1,5 +1,6 @@
 ## Problems
 - [String Hashing](https://open.kattis.com/problems/hashing)
+- [Chasing Subs](https://open.kattis.com/problems/chasingsubs)
 
 ## See also
 - [Perfect hashing]()
