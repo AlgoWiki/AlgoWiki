@@ -10,6 +10,7 @@
 ## See also
 - [Union-find data structure]()
 - [Minimum Cost Arborescence]()
+- [Rectilinear minimum spanning tree]()
 
 ## External links
 - [Minimum Spanning Tree Tutorial](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/)
