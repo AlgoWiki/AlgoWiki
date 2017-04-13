@@ -14,7 +14,8 @@ categories: String data structures
 * [Substrings and Repetitions](https://www.codechef.com/problems/ANUSAR) [^3]
 
 ## External links
-* [Suffix arrays – a programming contest approach](https://web.stanford.edu/class/cs97si/suffix-array.pdf)
+- [Suffix arrays – a programming contest approach](https://web.stanford.edu/class/cs97si/suffix-array.pdf)
+- [A tutorial on Suffix Arrays](https://discuss.codechef.com/questions/21385/a-tutorial-on-suffix-arrays)
 
 
 [^1]: <https://discuss.codechef.com/questions/7697/tastr-editorial>
