@@ -21,6 +21,7 @@ categories: Algorithm techniques, Graph algorithms
 * [Heavy-light decomposition]()
 
 ## External links
+* [Video on Centroid Decomposition](https://www.youtube.com/watch?v=2izuGA8T8IE)
 * [Centroid Decomposition of a Tree](https://threads-iiith.quora.com/Centroid-Decomposition-of-a-Tree)
 * [This week in competitive programming](http://petr-mitrichev.blogspot.com/2015/03/this-week-in-competitive-programming_22.html)
 * [Centroid Decomposition](http://www.ugrad.cs.ubc.ca/~cs490/2014W2/pdf/jason.pdf)
