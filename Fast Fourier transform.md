@@ -23,6 +23,7 @@ To compute the discrete Fourier transform of a two-dimensional array, first comp
 * [Divide and conquer]()
 
 ## External links
+* [Integer and polynomial multiplication](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/05DivideAndConquerII.pdf)
 * [Avoiding FFT precision issues (Russian)](http://codeforces.com/blog/entry/17130#comment-219836)
 * [FFT and overflows](http://codeforces.com/blog/entry/47758)
 * [MIPT fall training camp 2013, FFT contest](http://it-edu.mipt.ru/sites/default/files/131110b.pdf)
