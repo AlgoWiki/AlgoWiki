@@ -10,6 +10,7 @@ categories: Data structures
 * [Noble Knight's Path](http://codeforces.com/problemset/problem/226/E)
 * [K-Query Online](http://www.spoj.com/problems/KQUERYO/) [^1]
 * [Persistent Queue](http://codeforces.com/gym/100431)
+* [Pork Barrel](https://open.kattis.com/problems/porkbarrel)
 
 ## See also
 * [Segment tree]()
