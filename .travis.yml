@@ -13,4 +13,4 @@ before_script:
 script:
     # CodeChef is white-listed as it frequently returns 504
     # TOOD: Don't white-list CodeChef
-  - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'codechef.com/problems/' *.md
+  - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'codechef.com' *.md
