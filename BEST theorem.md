@@ -3,7 +3,7 @@ categories: Combinatorics, Graph theory
 ...
 
 ## See also
-* [Eulerian cycle]()
+- [Eulerian cycle]()
 
 ## External links
-* [BEST theorem](https://en.wikipedia.org/wiki/BEST_theorem)
+- [BEST theorem](https://en.wikipedia.org/wiki/BEST_theorem)

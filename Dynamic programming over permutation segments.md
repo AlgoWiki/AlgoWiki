@@ -1,16 +1,16 @@
 ## Problems
-* [Skyscraper](http://s3-ap-northeast-1.amazonaws.com/data.cms.ioi-jp.org/open-2016/2016-open-skyscraper-en.pdf) [^1] [^2] [^3]
-* [Ant Man](http://codeforces.com/contest/704/problem/B)
-* [SumOverPermutations](https://community.topcoder.com/stat?c=problem_statement&pm=13764) [^4]
-* [Seatfriends](https://community.topcoder.com/stat?c=problem_statement&pm=12909) [^5]
-* [AppleTrees](https://community.topcoder.com/stat?c=problem_statement&pm=11213)
+- [Skyscraper](http://s3-ap-northeast-1.amazonaws.com/data.cms.ioi-jp.org/open-2016/2016-open-skyscraper-en.pdf) [^1] [^2] [^3]
+- [Ant Man](http://codeforces.com/contest/704/problem/B)
+- [SumOverPermutations](https://community.topcoder.com/stat?c=problem_statement&pm=13764) [^4]
+- [Seatfriends](https://community.topcoder.com/stat?c=problem_statement&pm=12909) [^5]
+- [AppleTrees](https://community.topcoder.com/stat?c=problem_statement&pm=11213)
 
 ## See also
-* [Dynamic programming]()
-* [Dynamic programming over bipartite matchings]()
+- [Dynamic programming]()
+- [Dynamic programming over bipartite matchings]()
 
 ## External links
-* [[Tutorial] Non-trivial DP Tricks and Techniques](http://codeforces.com/blog/entry/47764)
+- [[Tutorial] Non-trivial DP Tricks and Techniques](http://codeforces.com/blog/entry/47764)
 
 [^1]: <http://s3-ap-northeast-1.amazonaws.com/data.cms.ioi-jp.org/open-2016/2016-open-skyscraper-sol-en.pdf>
 [^2]: <http://codeforces.com/blog/entry/45593>

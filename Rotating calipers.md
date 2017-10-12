@@ -14,8 +14,8 @@ The rotating calipers technique is basically just an "angle-sweep-line" version 
 
 This can then be easily generalized to many applications:
 
-* Minimum rectangle enclosing a convex polygon: Now we have two calipers that are orthogonal to each other, and again we rotate them around the polygon. This corresponds to having four lines in the simulation, i.e. two pairs of parallel lines, which are then orthogonal to each other so that the interior forms a rectangle.
-* Minimum distance between two convex polygons: Now one of the lines touches one of the polygons, and the other line touches the other polygon. Furthermore, we will initially let one of the lines touch the leftmost point of the corresponding polygon, while the other line touches the rightmost point of the corresponding polygon, and again the lines start out vertical.
+- Minimum rectangle enclosing a convex polygon: Now we have two calipers that are orthogonal to each other, and again we rotate them around the polygon. This corresponds to having four lines in the simulation, i.e. two pairs of parallel lines, which are then orthogonal to each other so that the interior forms a rectangle.
+- Minimum distance between two convex polygons: Now one of the lines touches one of the polygons, and the other line touches the other polygon. Furthermore, we will initially let one of the lines touch the leftmost point of the corresponding polygon, while the other line touches the rightmost point of the corresponding polygon, and again the lines start out vertical.
 
 See the links below for further applications and more detailed explanations.
 
@@ -23,17 +23,17 @@ For some example code you can look at my [implementation](https://github.com/Sup
 
 ## Problems
 
-* [Robert Hood](https://open.kattis.com/problems/roberthood)
-* [Fossil in the Ice](http://www.spoj.com/problems/TFOSS/)
-* [Trash Removal](https://uva.onlinejudge.org/external/11/p1111.pdf)
-* [Fence Orthogonality](https://open.kattis.com/problems/fenceortho)
-* [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
-* [Smallest Enclosing Rectangle](https://uva.onlinejudge.org/external/123/12307.pdf)
+- [Robert Hood](https://open.kattis.com/problems/roberthood)
+- [Fossil in the Ice](http://www.spoj.com/problems/TFOSS/)
+- [Trash Removal](https://uva.onlinejudge.org/external/11/p1111.pdf)
+- [Fence Orthogonality](https://open.kattis.com/problems/fenceortho)
+- [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
+- [Smallest Enclosing Rectangle](https://uva.onlinejudge.org/external/123/12307.pdf)
 
 ## See also
-* [Sweep line]()
+- [Sweep line]()
 
 ## External links
-* [Antipodal points](http://www.tcs.fudan.edu.cn/rudolf/Courses/Algorithms/Alg_ss_07w/Webprojects/Qinbo_diameter/2d_alg.htm)
-* [Rotating Calipers: An Efficient, Multipurpose, Computational Tool](http://sdiwc.net/digital-library/web-admin/upload-pdf/00001036.pdfThe)
-* [COMPUTATIONAL GEOMETRY WITH THE ROTATING CALIPERS](http://digitool.library.mcgill.ca/webclient/StreamGate?folder_id=0&dvs=1469220661104~207&usePid1=true&usePid2=true)
+- [Antipodal points](http://www.tcs.fudan.edu.cn/rudolf/Courses/Algorithms/Alg_ss_07w/Webprojects/Qinbo_diameter/2d_alg.htm)
+- [Rotating Calipers: An Efficient, Multipurpose, Computational Tool](http://sdiwc.net/digital-library/web-admin/upload-pdf/00001036.pdfThe)
+- [COMPUTATIONAL GEOMETRY WITH THE ROTATING CALIPERS](http://digitool.library.mcgill.ca/webclient/StreamGate?folder_id=0&dvs=1469220661104~207&usePid1=true&usePid2=true)

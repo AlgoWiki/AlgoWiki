@@ -10,17 +10,17 @@ The naive way of computing this recurrence with dynamic programming takes $O(n^3
 
 ## Problems
 
-* [Optimal Binary Search Tree](https://uva.onlinejudge.org/external/103/10304.pdf)
-* [Guardians of the Lunatics](https://www.hackerrank.com/contests/ioi-2014-practice-contest-2/challenges/guardians-lunatics-ioi14) [^1]
-* [Order-Preserving Codes](http://codeforces.com/gym/100212)
-* [Breaking Strings](http://www.spoj.com/problems/BRKSTRNG/)
+- [Optimal Binary Search Tree](https://uva.onlinejudge.org/external/103/10304.pdf)
+- [Guardians of the Lunatics](https://www.hackerrank.com/contests/ioi-2014-practice-contest-2/challenges/guardians-lunatics-ioi14) [^1]
+- [Order-Preserving Codes](http://codeforces.com/gym/100212)
+- [Breaking Strings](http://www.spoj.com/problems/BRKSTRNG/)
 
 ## See also
-* [Dynamic programming optimization]()
+- [Dynamic programming optimization]()
 
 ## External links
-* [Dynamic Programming Optimizations](http://codeforces.com/blog/entry/8219)
-* [ZOJ 2860 Breaking Strings](https://apps.topcoder.com/forums/?module=Thread&threadID=579321&start=0&mc=17#823126)
-* [Commonly used DP state domains](https://apps.topcoder.com/forums/?module=Thread&threadID=697369&start=0&mc=22#1327577)
+- [Dynamic Programming Optimizations](http://codeforces.com/blog/entry/8219)
+- [ZOJ 2860 Breaking Strings](https://apps.topcoder.com/forums/?module=Thread&threadID=579321&start=0&mc=17#823126)
+- [Commonly used DP state domains](https://apps.topcoder.com/forums/?module=Thread&threadID=697369&start=0&mc=22#1327577)
 
 [^1]: <https://www.hackerrank.com/contests/ioi-2014-practice-contest-2/challenges/guardians-lunatics-ioi14/editorial>

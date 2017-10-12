@@ -237,11 +237,11 @@ A simple footnote.^[Or is it so simple?]
 <tr>
 <td>
 <pre>
-* a bulleted list
-* second item
+- a bulleted list
+- second item
     - sublist
     - and more
-* back to main list
+- back to main list
     1. this item has an ordered
     2. sublist
         a) you can also use letters
@@ -250,11 +250,11 @@ A simple footnote.^[Or is it so simple?]
 </td>
 <td>
 
-* a bulleted list
-* second item
+- a bulleted list
+- second item
     - sublist
     - and more
-* back to main list
+- back to main list
     1. this item has an ordered
     2. sublist
         a) you can also use letters

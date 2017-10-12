@@ -9,19 +9,19 @@ If the poset is represented as a [directed acyclic graph](Directed acyclic graph
 > **Note**: Posets are [transitive](Transitivity) by nature. If a poset is represented in compressed form as a DAG, then the [transitive closure](Transitive closure) must be taken before computing the vertex-disjoint path cover.
 
 ## Problems
-* [Fat Hobbits](http://acm.timus.ru/problem.aspx?space=1&num=1533)
-* [Nested Dolls](https://ncpc.idi.ntnu.no/ncpc2007/ncpc2007problems.pdf)
-* [Incubator](https://community.topcoder.com/stat?c=problem_statement&pm=12080) [^1]
-* [Gentrification](http://codeforces.com/gym/100591)
-* [Birthday](http://codeforces.com/contest/590/problem/E) [^2]
+- [Fat Hobbits](http://acm.timus.ru/problem.aspx?space=1&num=1533)
+- [Nested Dolls](https://ncpc.idi.ntnu.no/ncpc2007/ncpc2007problems.pdf)
+- [Incubator](https://community.topcoder.com/stat?c=problem_statement&pm=12080) [^1]
+- [Gentrification](http://codeforces.com/gym/100591)
+- [Birthday](http://codeforces.com/contest/590/problem/E) [^2]
 
 ## See also
-* [Vertex-disjoint path cover]()
-* [Hall's marriage theorem](Hall's marriage theorem)
+- [Vertex-disjoint path cover]()
+- [Hall's marriage theorem](Hall's marriage theorem)
 
 ## External links
-* [Dilworth's theorem](https://en.wikipedia.org/wiki/Dilworth%27s_theorem)
-* [Partially Ordered Sets](http://codeforces.com/blog/entry/3781)
+- [Dilworth's theorem](https://en.wikipedia.org/wiki/Dilworth%27s_theorem)
+- [Partially Ordered Sets](http://codeforces.com/blog/entry/3781)
 
 
 [^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+557>

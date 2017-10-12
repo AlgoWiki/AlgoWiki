@@ -25,17 +25,17 @@ There is no known closed-form solution for $n=3$, although the following equalit
 $$ g(d\cdot a_1, d\cdot a_2, a_3) = d\cdot g(a_1,a_2,a_3) + a_3(d-1) $$
 
 ## Problems
-* [Knapsack in a Globalized World](http://gcpc.nwerc.eu/problemset_2016.pdf)
-* [Linear Combinations of Semiprimes](https://projecteuler.net/problem=278)
-* [Sums](http://main.edu.pl/en/archive/oi/10/sum)
-* [LongLongTripDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=13090) [^3]
+- [Knapsack in a Globalized World](http://gcpc.nwerc.eu/problemset_2016.pdf)
+- [Linear Combinations of Semiprimes](https://projecteuler.net/problem=278)
+- [Sums](http://main.edu.pl/en/archive/oi/10/sum)
+- [LongLongTripDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=13090) [^3]
 
 ## See also
-* [Bézout's identity](Bézout's identity)
-* [Knapsack problem]()
+- [Bézout's identity](Bézout's identity)
+- [Knapsack problem]()
 
 ## External links
-* [Coin problem](https://en.wikipedia.org/wiki/Coin_problem)
+- [Coin problem](https://en.wikipedia.org/wiki/Coin_problem)
 
 
 [^1]: <http://gcpc.nwerc.eu/outlines_2016.pdf>

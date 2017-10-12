@@ -3,15 +3,15 @@ categories: Graph algorithms
 ...
 
 ## Problems
-* [Pool construction](http://archive.algo.is/icpc/nwerc/2011/nwerc2011-problemset_2.pdf) [^1]
-* [Landscaping](http://swerc.up.pt/2015/reports/problemset.pdf) [^2]
-* [Economical Coverage](https://open.kattis.com/problems/ecocover)
+- [Pool construction](http://archive.algo.is/icpc/nwerc/2011/nwerc2011-problemset_2.pdf) [^1]
+- [Landscaping](http://swerc.up.pt/2015/reports/problemset.pdf) [^2]
+- [Economical Coverage](https://open.kattis.com/problems/ecocover)
 
 ## External links
-* [Network Flow II](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowII.pdf), image segmentation, pg. 49.
+- [Network Flow II](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowII.pdf), image segmentation, pg. 49.
 
 ## See also
-* [Minimum cut]()
+- [Minimum cut]()
 
 
 [^1]: <http://archive.algo.is/icpc/nwerc/2011/nwerc2011-solutions.pdf>
