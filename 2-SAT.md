@@ -14,5 +14,5 @@ category: Logic
 * [2-SAT Tutorial](http://codeforces.com/blog/entry/16205)
 
 [^1]: <http://web.ics.upjs.sk/ceoi/documents/tasks/party-sol.pdf>
-[^2]: <http://2011.nwerc.eu/results/nwerc2011-solutions.pdf>
+[^2]: <http://archive.algo.is/icpc/nwerc/2011/nwerc2011-solutions.pdf>
 [^3]: <http://2012.nwerc.eu/media/ProblemSet-presentation.pdf>

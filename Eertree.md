@@ -6,10 +6,10 @@ categories: String data structures
 
 ## Problems
 * [Palindromic Contest](http://acm.timus.ru/problemset.aspx?space=276)
-* [The Number of Palindromes](http://acm.hdu.edu.cn/showproblem.php?pid=3948)
+* [The Number of Palindromes](https://www.bnuoj.com/v3/problem_show.php?pid=8053)
 * [Number of Palindromes](http://www.spoj.com/problems/NUMOFPAL/)
 * [Palindrome Substring](https://open.kattis.com/problems/palindromesubstring)
-* [Palindromes](http://olympiads.kz/apio2014/apio2014_problemset.pdf)
+* [Palindromes](http://apio-olympiad.org/2014/apio2014_problemset.pdf)
 * [The Problem to Slow Down You](http://codeforces.com/gym/100548)
 * [Lucy and Flowers](https://www.codechef.com/problems/DECORATE) [^1]
 * [Build a Palindrome](https://www.hackerrank.com/contests/world-codesprint-5/challenges/challenging-palindromes)

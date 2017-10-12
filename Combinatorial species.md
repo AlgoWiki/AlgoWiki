@@ -4,7 +4,7 @@ categories: Combinatorics
 
 ## Problems
 * [Chemistry](https://neerc.ifmo.ru/past/2012/northern/problems.pdf)
-* [Bus Routes](https://icpc.njust.edu.cn/Problem/Hdu/5552/)
+* [Bus Routes](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=2&category=716&page=show_problem&problem=5263)
 * [The Child and Binary Tree](http://codeforces.com/contest/438/problem/E)
 
 ## See also
