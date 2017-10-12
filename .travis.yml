@@ -14,3 +14,9 @@ script:
     # CodeChef is white-listed as it frequently returns 504
     # TOOD: Don't white-list CodeChef
   - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'codechef.com' *.md
+
+# Notify us if check fails
+notifications:
+  email:
+    - suprdewd@gmail.com   # @SuprDewd
+    - fisetwill@gmail.com  # @williamfiset
