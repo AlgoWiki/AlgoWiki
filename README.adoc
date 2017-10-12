@@ -5,6 +5,7 @@ pass:[
     <img src="AlgoWiki.png" alt="AlgoWiki logo" />
     <hr />
 </p>
+<img src="https://img.shields.io/travis/AlgoWiki/AlgoWiki.svg" alt="Travis CI" /><br/>
 ]
 
 AlgoWiki is a wiki dedicated to competitive programming. This repository
