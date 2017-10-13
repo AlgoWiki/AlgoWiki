@@ -10,9 +10,9 @@ categories: Algorithm techniques, Graph algorithms
 - [Portaler](https://po.kattis.com/problems/portaler) (Swedish)
 
 ## See also
-* [Binary jumping]()
-* [Binary search]()
-* [Dynamic programming]()
+- [Binary jumping]()
+- [Binary search]()
+- [Dynamic programming]()
 
 ## External links
 - [Algorithms Live! Episode 17 - Binary Lifting](https://www.youtube.com/watch?v=kOfa6t8WnbI)

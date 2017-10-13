@@ -6,5 +6,5 @@ categories: Graph theory
 See also [Center of a tree](Graph center#Trees) and [Perfect hashing]().
 
 ### Problems
-* [Tree Isomorphism](http://www.spoj.com/problems/TREEISO/)
+- [Tree Isomorphism](http://www.spoj.com/problems/TREEISO/)
 

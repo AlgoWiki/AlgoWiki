@@ -9,6 +9,6 @@ Gaussian elimination works over any finite field.
 * [IQ Test](https://open.kattis.com/problems/iqtest)
 
 ## External links
-* [Solvable SAT](http://mradwan.github.io/algorithms/2014/10/14/solvable-sat/)
+- [Solvable SAT](http://mradwan.github.io/algorithms/2014/10/14/solvable-sat/)
 
 [^1]: <http://cs.baylor.edu/~hamerly/icpc/qualifier_2016/naq-2016-explanations.pdf>

@@ -11,12 +11,12 @@ $$ \frac{\sin\theta_1}{v_1} = \frac{\sin\theta_2}{v_2}. $$
 > **Insight**: If Snell's law gives an undefined result (perhaps because of a domain error for $\sin^{-1}$), that means the light wouldn't be refracted, but reflected instead. In terms of optimization, this means that the given scenario is not optimal.
 
 ## Problems
-* [EllysThreeRivers](https://community.topcoder.com/stat?c=problem_statement&pm=11911&rd=14735) [^1]
-* [RemoteRover](https://community.topcoder.com/stat?c=problem_statement&pm=4022&rd=6534) [^2]
-* [Ironman](https://open.kattis.com/problems/ironman)
+- [EllysThreeRivers](https://community.topcoder.com/stat?c=problem_statement&pm=11911&rd=14735) [^1]
+- [RemoteRover](https://community.topcoder.com/stat?c=problem_statement&pm=4022&rd=6534) [^2]
+- [Ironman](https://open.kattis.com/problems/ironman)
 
 ## External links
-* [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law)
+- [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law)
 
 
 [^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+543>

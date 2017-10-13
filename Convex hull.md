@@ -8,6 +8,6 @@ categories: Geometry algorithms, Geometry
 * [Saint John](https://open.kattis.com/problems/saintjohn)
 
 ## See also
-* [Convex polygon]()
-* [Minkowski sum]()
+- [Convex polygon]()
+- [Minkowski sum]()
 

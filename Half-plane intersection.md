@@ -3,7 +3,7 @@ categories: Geometry algorithms
 ...
 
 ## Problems
-* [Asymmetry Value](https://contest.yandex.com/contest/2540/problems/F/) [^1] [^2] [^3]
+- [Asymmetry Value](https://contest.yandex.com/contest/2540/problems/F/) [^1] [^2] [^3]
 
 
 [^1]: <http://codeforces.com/blog/entry/45855>

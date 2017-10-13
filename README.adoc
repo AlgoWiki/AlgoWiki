@@ -6,6 +6,7 @@ pass:[
     <hr />
 </p>
 ]
+image:https://travis-ci.org/AlgoWiki/AlgoWiki.svg?branch=master["Build Status", link="https://travis-ci.org/AlgoWiki/AlgoWiki"]
 
 AlgoWiki is a wiki dedicated to competitive programming. This repository
 contains source files for the wiki, but you can find the wiki itself at

@@ -9,8 +9,8 @@ Path cover in a [directed acyclic graph](Directed acyclic graph) can be reduced 
 cover problem.
 
 ## Problems
-* [Skiers](http://main.edu.pl/en/archive/oi/9/nar)
+- [Skiers](http://main.edu.pl/en/archive/oi/9/nar)
 
 ## See also
-* [Vertex-disjoint path cover]()
-* [Dilworth's theorem](Dilworth's theorem)
+- [Vertex-disjoint path cover]()
+- [Dilworth's theorem](Dilworth's theorem)

@@ -14,11 +14,11 @@ Calculating the multiplicative inverse of a formal power series can be done in $
 Calculating the square root of a formal power series can be done in $O(n\log n)$. [^1]
 
 ## See also
-* [Generating function]()
+- [Generating function]()
 
 ## External links
-* [HOPS - Handy Operations on Power Series](http://akc.is/hops/)
-* [Power serious: power series in ten one-liners](http://www1.cs.dartmouth.edu/~doug/powser.html)
+- [HOPS - Handy Operations on Power Series](http://akc.is/hops/)
+- [Power serious: power series in ten one-liners](http://www1.cs.dartmouth.edu/~doug/powser.html)
 
 
 [^1]: <http://codeforces.com/blog/entry/12513>

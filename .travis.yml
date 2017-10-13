@@ -1,0 +1,22 @@
+# Install ruby to get gem command
+before_install:
+  - sudo apt-add-repository -y ppa:brightbox/ruby-ng
+  - sudo apt-get -y update
+  - sudo apt-get -y install ruby2.4
+  - sudo apt-get -y install bash
+
+# Install awesome_bot tool for broken link checking
+before_script:
+  - gem install awesome_bot
+
+# Run broken link check
+script:
+    # CodeChef is white-listed as it frequently returns 504
+    # TOOD: Don't white-list CodeChef
+  - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'codechef.com' *.md
+
+# Notify us if check fails
+notifications:
+  email:
+    - suprdewd@gmail.com   # @SuprDewd
+    - fisetwill@gmail.com  # @williamfiset

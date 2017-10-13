@@ -22,11 +22,11 @@ Unbounded knapsack can be reduced to 0/1 knapsack in a similar manner as [bounde
 * [Lucky Country](http://codeforces.com/problemset/problem/95/E) [^3]
 
 ## See also
-* [NP-complete]()
-* [Frobenius coin problem]()
+- [NP-complete]()
+- [Frobenius coin problem]()
 
 ## External links
-* [Continuous knapsack problem](https://en.wikipedia.org/wiki/Continuous_knapsack_problem)
+- [Continuous knapsack problem](https://en.wikipedia.org/wiki/Continuous_knapsack_problem)
 
 [^1]: <http://petr-mitrichev.blogspot.com/2011/07/integral-bounded-knapsack-problem.html>
 [^2]: <http://dhruvbird.blogspot.is/2011/09/integer-01-bounded-knapsack-problem.html>

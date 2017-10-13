@@ -4,8 +4,8 @@ categories: Graph theory
 
 ## Trees
 ### Problems
-* [Adjoin the Networks](https://open.kattis.com/problems/adjoin)
+- [Adjoin the Networks](https://open.kattis.com/problems/adjoin)
 
 ## See also
-* [Longest path problem]()
+- [Longest path problem]()
 

@@ -13,13 +13,13 @@ See [Divide and conquer optimization]().
 See [Knuth's optimization](Knuth's optimization).
 
 ## Problems
-* [Branch Assignment](https://open.kattis.com/problems/branch) [^1] [^2]
+- [Branch Assignment](https://open.kattis.com/problems/branch) [^1] [^2]
 
 ## See also
-* [Dynamic programming]()
+- [Dynamic programming]()
 
 ## External links
-* [Dynamic Programming Optimizations](http://codeforces.com/blog/entry/8219)
+- [Dynamic Programming Optimizations](http://codeforces.com/blog/entry/8219)
 
 [^1]: <https://www.youtube.com/watch?v=4xyhMgQnS88&list=PLm9puTBNlJjVbqpIkp048XbDNxK7-1Ucg&index=9>
 [^2]: <http://www.csc.kth.se/~austrin/icpc/finals2016solutions.pdf>

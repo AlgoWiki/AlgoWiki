@@ -19,7 +19,7 @@ The empty set is important in Minkowski addition, because the empty set annihila
 
 Minkowski addition behaves well with respect to the operation of taking [convex hulls](Convex hull), as shown by the following proposition:
 
-* For all non-empty subsets $S_1$ and $S_2$ of a real vector-space, the convex hull of their Minkowski sum is the Minkowski sum of their convex hulls $$\mathrm{Conv}(S_1 + S_2) = \mathrm{Conv}(S_1) + \mathrm{Conv}(S_2).$$
+- For all non-empty subsets $S_1$ and $S_2$ of a real vector-space, the convex hull of their Minkowski sum is the Minkowski sum of their convex hulls $$\mathrm{Conv}(S_1 + S_2) = \mathrm{Conv}(S_1) + \mathrm{Conv}(S_2).$$
 
 This result holds more generally for each finite collection of non-empty sets
 $$\mathrm{Conv}(\Sigma S_n) = \Sigma \mathrm{Conv}(S_n).$$
@@ -42,19 +42,19 @@ If one polygon is convex and another one is not, the complexity of their Minkows
 
 
 ## Problems
-* [Minkowski Sums](https://projecteuler.net/problem=228)
-* [Kiddie Pool](https://code.google.com/codejam/contest/8234486/dashboard#s=p1&a=3) [^1]
-* [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
-* [Fireworks](https://www.docdroid.net/eviUqH5/fireworks-en.pdf.html) [^2]
-* [Bridge Building](http://opencup.ru/files/ocf/gp13/problems1-e.pdf) [^3]
-* [Mogohu Ree Idol](http://codeforces.com/contest/87/problem/E) [^4]
-* [TrianglePainting](https://community.topcoder.com/stat?c=problem_statement&pm=13775) [^5]
-* [Gears](http://codeforces.com/contest/497/problem/D) [^6]
+- [Minkowski Sums](https://projecteuler.net/problem=228)
+- [Kiddie Pool](https://code.google.com/codejam/contest/8234486/dashboard#s=p1&a=3) [^1]
+- [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
+- [Fireworks](https://www.docdroid.net/eviUqH5/fireworks-en.pdf.html) [^2]
+- [Bridge Building](http://opencup.ru/files/ocf/gp13/problems1-e.pdf) [^3]
+- [Mogohu Ree Idol](http://codeforces.com/contest/87/problem/E) [^4]
+- [TrianglePainting](https://community.topcoder.com/stat?c=problem_statement&pm=13775) [^5]
+- [Gears](http://codeforces.com/contest/497/problem/D) [^6]
 
 
 ## External links
-* [Minkowski addition](https://en.wikipedia.org/wiki/Minkowski_addition)
-* [Minkowski's addition of convex shapes](http://www.cut-the-knot.org/Curriculum/Geometry/PolyAddition.shtml)
+- [Minkowski addition](https://en.wikipedia.org/wiki/Minkowski_addition)
+- [Minkowski's addition of convex shapes](http://www.cut-the-knot.org/Curriculum/Geometry/PolyAddition.shtml)
 
 [^1]: <http://codeforces.com/blog/entry/18204?#comment-231204>
 [^2]: <http://codeforces.com/blog/entry/44657?#comment-293094>

@@ -1,11 +1,11 @@
 ## Problems
-* [Tri-colouring a triangular grid](https://projecteuler.net/problem=189)
-* [Land of Farms](https://icpcarchive.ecs.baylor.edu/external/72/p7255.pdf)
-* [Pipes](http://heim.ifi.uio.no/~db/nm-i-programmering/nm2004/nwerc/problems.pdf)
-* [Job](https://official.contest.yandex.ru/mipt2014/contest/892/problems/J/)
+- [Tri-colouring a triangular grid](https://projecteuler.net/problem=189)
+- [Land of Farms](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=686&page=show_problem&problem=5267)
+- [Pipes](http://fileadmin.cs.lth.se/contest/nwerc/Problemset_NWERC2004.pdf)
+- [Job](https://official.contest.yandex.ru/mipt2014/contest/892/problems/J/)
 
 ## See also
-* [Dynamic programming]()
+- [Dynamic programming]()
 
 ## External links
-* [Dynamic Programming on Broken Profile. Problem "Parquet"](https://e-maxx-eng.appspot.com/dynamic_programming/profile-dynamics.html)
+- [Dynamic Programming on Broken Profile. Problem "Parquet"](https://e-maxx-eng.appspot.com/dynamic_programming/profile-dynamics.html)

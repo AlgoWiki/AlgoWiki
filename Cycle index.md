@@ -65,6 +65,6 @@ $$
 Z(S_n) = \frac{1}{n} \sum_{l=1}^n a_l \; Z(S_{n-l}).$$
 
 ## See also
-* [Pólya enumeration theorem]()
-* [Combinatorial species]()
-* [Generating functions]()
+- [Pólya enumeration theorem]()
+- [Combinatorial species]()
+- [Generating functions]()

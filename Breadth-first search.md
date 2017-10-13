@@ -9,4 +9,4 @@ categories: Graph algorithms
 * [Beehives](https://open.kattis.com/problems/beehives2)
 
 ## External links
-* [0-1 BFS [Tutorial]](http://codeforces.com/blog/entry/22276)
+- [0-1 BFS [Tutorial]](http://codeforces.com/blog/entry/22276)
