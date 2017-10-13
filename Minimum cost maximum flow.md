@@ -5,6 +5,7 @@ categories: Graph algorithms
 ## Problems
 - [Minimum Cost Maximum Flow](https://open.kattis.com/problems/mincostmaxflow)
 - [Admiral](http://2012.nwerc.eu/media/NWERC_2012_ProblemSet_FINAL.pdf) [^1]
+- [Job Postings](https://open.kattis.com/problems/jobpostings)
 - [Catering](https://open.kattis.com/problems/catering) [^2]
 
 ## External links

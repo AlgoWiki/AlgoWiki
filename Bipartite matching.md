@@ -8,6 +8,7 @@ categories: Graph algorithms, Graph theory
 - [Apparatus](https://open.kattis.com/problems/apparatus)
 - [Paintball](https://open.kattis.com/problems/paintball)
 - [Linije](https://open.kattis.com/problems/linije)
+- [Job Postings](https://open.kattis.com/problems/jobpostings)
 
 ## See also
 - [Bipartite graph]()

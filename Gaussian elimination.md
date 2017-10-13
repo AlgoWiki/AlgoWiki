@@ -3,9 +3,11 @@ Gaussian elimination works over any finite field.
 > TODO: Split into separate articles? Gauss over finite field, XOR-SAT, ...
 
 ## Problems
+- [Linear Equation Solver](https://open.kattis.com/problems/equationsolver)
+- [Partial Linear Equation Solver](https://open.kattis.com/problems/equationsolverplus)
+- [IQ Test](https://open.kattis.com/problems/iqtest)
 - [Primonimo](http://cs.baylor.edu/~hamerly/icpc/qualifier_2016/problemset-naq-2016.pdf) [^1]
 - [Translators' Dinner](https://2016.bapc.eu/media/filer_public/2016/09/30/bapc2016-preliminaries.pdf)
-
 
 ## External links
 - [Solvable SAT](http://mradwan.github.io/algorithms/2014/10/14/solvable-sat/)
