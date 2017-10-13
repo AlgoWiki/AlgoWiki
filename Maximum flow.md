@@ -4,6 +4,7 @@ categories: Graph algorithms, Graph theory
 
 ## Problems
 - [Maximum Flow](https://open.kattis.com/problems/maxflow)
+- [March of the Penguins](https://open.kattis.com/problems/marchofpenguins)
 - [Councilling](https://open.kattis.com/problems/councilling)
 - [Budget](https://open.kattis.com/problems/budget)
 
