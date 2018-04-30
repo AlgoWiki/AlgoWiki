@@ -8,7 +8,7 @@ categories: Numerical methods
 - [Reconnaissance](https://open.kattis.com/problems/reconnaissance)
 - [Calculator](https://www.codechef.com/JULY17/problems/CALC)
 - [HackerEarth Problems](https://www.hackerearth.com/practice/algorithms/searching/ternary-search/practice-problems/)
-- [CodeForces] (http://codeforces.com/problemset/tags/ternary%20search)
+- [CodeForces](http://codeforces.com/problemset/tags/ternary%20search)
 
 ## External links
 - [Ternary Search](https://e-maxx-eng.appspot.com/num_methods/ternary_search.html)
