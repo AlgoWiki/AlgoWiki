@@ -8,8 +8,8 @@ categories: Data structure techniques, Data structures, Graph algorithms
 - [HLDOTS](https://www.codechef.com/problems/HLDOTS)
 - [Monopoly](https://www.codechef.com/problems/MONOPLOY)
 ## Implementation
-- Code(http://codeforces.com/blog/entry/22072)
-- Java(https://sites.google.com/site/indy256/algo/heavy_light)
+- [Code](http://codeforces.com/blog/entry/22072)
+- [Java](https://sites.google.com/site/indy256/algo/heavy_light)
 ## See also
 - [Centroid decomposition]()
 
