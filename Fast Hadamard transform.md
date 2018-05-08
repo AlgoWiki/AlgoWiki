@@ -14,7 +14,7 @@ categories: Algorithms
 
 ## External links
 - [Fast Fourier Transform and variations of it](http://codeforces.com/blog/entry/48232)
-- [Fast Fourier Transform and variations of it](https://csacademy.com/blog/#fast-fourier-transform-and-variations-of-it)
+- [Fast Fourier Transform and variations of it](https://csacademy.com/blog/fast-fourier-transform-and-variations-of-it)
 
 [^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+518>
 [^2]: <http://codeforces.com/blog/entry/13190>
