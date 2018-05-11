@@ -30,6 +30,7 @@ This latter form can also be computed quickly using the [divide and conquer opti
 - [Cow School](http://poj.org/problem?id=3266) [^2]
 - [Kalila and Dimna in the Logging Industry](http://codeforces.com/contest/319/problem/C) [^3]
 - [Leaves](http://www.spoj.com/problems/NKLEAVES/)
+- [Squared Ends](https://csacademy.com/contest/round-70/task/squared-ends/)
 
 ## See also
 - [Dynamic programming optimization]()

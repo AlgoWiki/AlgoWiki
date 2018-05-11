@@ -15,7 +15,7 @@ To support both insertions and deletions, see [Dynamic connectivity]().
 
 ### Problems
 - [Islands](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=360&page=show_problem&problem=2628)
-- [Escape from Enemy Territory](http://2007.nwerc.eu/problems/nwerc07-problemset.pdf)
+- [Escape from Enemy Territory](https://open.kattis.com/problems/enemyterritory)
 - [Artwork](https://open.kattis.com/problems/artwork) [^1]
 
 ## Undo operation
