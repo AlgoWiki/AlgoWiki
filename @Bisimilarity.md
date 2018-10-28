@@ -3,5 +3,6 @@
 
 ## DFA equivalence
 How does this problem relate to equivalence of DFA's?
+
 - TODO: Make page about that.
 - Problem: https://open.kattis.com/problems/outsourcing (http://gcpc.nwerc.eu/outlines_2012.pdf)
