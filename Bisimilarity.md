@@ -7,6 +7,8 @@ categories: Graph theory
 - [Driver Disagreement](https://archive.algo.is/icpc/nwerc/bapc/2018/problems/D.pdf) [^1]
 
 ## See also
+- [DFA equivalence]()
+- [DFA minimization]()
 - [Synchronizing word]()
 
 ## External links
