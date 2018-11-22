@@ -4,8 +4,9 @@
 - [Competitive Programmer's Handbook](https://cses.fi/book.html) by Antti Laaksonen (in progress) [^2]
 - [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
 
-### Math-oriented
+### Math/geometry-oriented
 - [Trophy Hunting in the Infinite Jungle of Finitude](http://qubit.pw/trophy.pdf) by Janne Junnila
+- [Handbook of geometry for competitive programmers](https://vlecomte.github.io/cp-geo.pdf) by Victor Lecomte (in progress) [^3]
 
 ## Blogs
 - [The bit talk](http://mradwan.github.io/)
@@ -20,3 +21,4 @@
 
 [^1]: [Experiments for Data Structures, Algorithms and Strategies Solving Problems based on Programming Contests](http://www3.cs.stonybrook.edu/~rezaul/Spring-2015/CSE548/Yonghui-Wu/Yonghui-Wu-books.pdf)
 [^2]: <http://codeforces.com/blog/entry/50728>
+[^3]: <https://codeforces.com/blog/entry/59129>
