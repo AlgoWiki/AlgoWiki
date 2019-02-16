@@ -1,6 +1,6 @@
 ## Books
 - [Competitive Programming 3](https://cpbook.net/) by Steven Halim and Felix Halim
-- [Competitive Programmer's Handbook](https://cses.fi/book.html) by Antti Laaksonen (in progress) [^2]
+- [Competitive Programmer's Handbook](https://cses.fi/book.html) by Antti Laaksonen [^2]
 - [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
 
 ### Math/geometry-oriented
