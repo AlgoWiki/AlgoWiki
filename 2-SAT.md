@@ -9,6 +9,9 @@ category: Logic
 - [Birthday party](http://web.ics.upjs.sk/ceoi/documents/tasks/party-tsk.pdf) [^1]
 - [Piece It Together](https://open.kattis.com/problems/pieceittogether) [^2]
 
+## See also
+- [Satisfiability]()
+
 ## External links
 - [2-satisfiability](https://en.wikipedia.org/wiki/2-satisfiability)
 - [2-SAT Tutorial](http://codeforces.com/blog/entry/16205)
