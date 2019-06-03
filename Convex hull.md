@@ -10,4 +10,4 @@ categories: Geometry algorithms, Geometry
 ## See also
 - [Convex polygon]()
 - [Minkowski sum]()
-
+- [Convex hull (3D)]()
