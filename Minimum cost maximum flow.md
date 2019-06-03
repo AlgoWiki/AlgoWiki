@@ -1,5 +1,5 @@
 ---
-categories: Graph algorithms
+categories: Graph algorithms, Combinatorial optimization
 ...
 
 ## Problems
