@@ -5,6 +5,7 @@ categories: Linear algebra
 ## Problems
 - [A lagged Fibonacci sequence](https://projecteuler.net/problem=258)
 - [Random Number Generator](https://www.codechef.com/problems/RNG) [^1]
+- [Unequalled Consumption](https://open.kattis.com/problems/consumption)
 
 ## See also
 - [Berlekamp-Massey algorithm]()
