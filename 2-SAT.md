@@ -8,6 +8,7 @@ category: Logic
 - [Manhattan](https://uva.onlinejudge.org/external/103/p10319.pdf)
 - [Birthday party](http://web.ics.upjs.sk/ceoi/documents/tasks/party-tsk.pdf) [^1]
 - [Piece It Together](https://open.kattis.com/problems/pieceittogether) [^2]
+- [Palindromic DNA](https://open.kattis.com/problems/palindromicdna) [^4]
 
 ## See also
 - [Satisfiability]()
@@ -19,3 +20,4 @@ category: Logic
 [^1]: <http://web.ics.upjs.sk/ceoi/documents/tasks/party-sol.pdf>
 [^2]: <http://archive.algo.is/icpc/nwerc/2011/nwerc2011-solutions.pdf>
 [^3]: <http://2012.nwerc.eu/media/ProblemSet-presentation.pdf>
+[^4]: <http://pc.fdi.ucm.es/swerc/swerc10/SWERC-sols.pdf>
