@@ -8,6 +8,7 @@ To compute the discrete Fourier transform of a two-dimensional array, first comp
 > TODO: Can this be generalized to higher dimensions?
 
 ## Problems
+- [Figurine Figures](https://open.kattis.com/problems/figurinefigures)
 - [Just A Few More Triangles!](https://open.kattis.com/problems/moretriangles)
 - [A+B Problem](https://open.kattis.com/problems/aplusb)
 - [Tile Cutting](https://icpc.kattis.com/problems/tiles)
