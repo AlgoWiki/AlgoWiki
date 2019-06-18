@@ -8,6 +8,7 @@ categories: Graph algorithms, Graph theory
 - [Checkers](http://www.acmicpc-pacnw.org/ProblemSet/2015/Statements/div1.pdf) [^2]
 
 ## See also
+- [Chinese postman problem]()
 - [De Bruijn sequence]()
 - [BEST theorem]()
 
