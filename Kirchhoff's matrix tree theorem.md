@@ -5,7 +5,7 @@ categories: Linear algebra, Combinatorics, Graph theory
 ## Problems
 - [Organising the Organisation](https://open.kattis.com/problems/organising)
 - [Join](http://acm.timus.ru/problem.aspx?space=1&num=1627)
-- [Amazing Mazes!](https://projecteuler.net/thread=380)
+- [Amazing Mazes!](https://projecteuler.net/problem=380)
 - [Unicyclic Count](https://open.kattis.com/problems/unicycliccount)
 
 ## External links
