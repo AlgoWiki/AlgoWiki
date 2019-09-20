@@ -4,7 +4,7 @@
 - [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
 
 ### Math/geometry-oriented
-- [Trophy Hunting in the Infinite Jungle of Finitude](http://qubit.pw/trophy.pdf) by Janne Junnila
+- [Trophy Hunting in the Infinite Jungle of Finitude](https://quasisphere.io/trophy.pdf) by Janne Junnila
 - [Handbook of geometry for competitive programmers](https://vlecomte.github.io/cp-geo.pdf) by Victor Lecomte (in progress) [^3]
 
 ## Blogs

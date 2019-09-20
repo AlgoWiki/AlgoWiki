@@ -34,7 +34,7 @@ For some example code you can look at my [implementation](https://github.com/Sup
 - [Sweep line]()
 
 ## External links
-- [Antipodal points](http://www.tcs.fudan.edu.cn/rudolf/Courses/Algorithms/Alg_ss_07w/Webprojects/Qinbo_diameter/2d_alg.htm)
-- [Rotating Calipers: An Efficient, Multipurpose, Computational Tool](http://sdiwc.net/digital-library/web-admin/upload-pdf/00001036.pdfThe)
-- [COMPUTATIONAL GEOMETRY WITH THE ROTATING CALIPERS](http://digitool.library.mcgill.ca/webclient/StreamGate?folder_id=0&dvs=1469220661104~207&usePid1=true&usePid2=true)
+- [Antipodal points](https://web.archive.org/web/20170406160008/http://www.tcs.fudan.edu.cn/rudolf/Courses/Algorithms/Alg_ss_07w/Webprojects/Qinbo_diameter/2d_alg.htm)
+- [Rotating Calipers: An Efficient, Multipurpose, Computational Tool](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1007.1897&rep=rep1&type=pdf)
+- [COMPUTATIONAL GEOMETRY WITH THE ROTATING CALIPERS](http://digitool.library.mcgill.ca/webclient/StreamGate?folder_id=0&dvs=1569005302592~125&usePid1=true&usePid2=true)
 - [Minimum-Area Rectangle Containing a Set of Points](https://www.geometrictools.com/Documentation/MinimumAreaRectangle.pdf)

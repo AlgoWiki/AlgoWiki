@@ -10,7 +10,7 @@ If the poset is represented as a [directed acyclic graph](Directed acyclic graph
 
 ## Problems
 - [Fat Hobbits](http://acm.timus.ru/problem.aspx?space=1&num=1533)
-- [Nested Dolls](https://ncpc.idi.ntnu.no/ncpc2007/ncpc2007problems.pdf)
+- [Nested Dolls](https://nordic.icpc.io/ncpc2007/ncpc2007problems.pdf)
 - [Incubator](https://community.topcoder.com/stat?c=problem_statement&pm=12080) [^1]
 - [Gentrification](http://codeforces.com/gym/100591)
 - [Birthday](http://codeforces.com/contest/590/problem/E) [^2]

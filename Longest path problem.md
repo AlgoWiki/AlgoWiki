@@ -6,7 +6,7 @@ categories: Graph theory
 The longest path in a tree can be found in linear time.
 
 ### Problems
-- [Flight Planning](https://ncpc.idi.ntnu.no/ncpc2009/ncpc2009problems.pdf)
+- [Flight Planning](https://nordic.icpc.io/ncpc2009/ncpc2009problems.pdf)
 - [LHC](http://wcipeg.com/problem/ccc13s2p3)
 
 ## See also

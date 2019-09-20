@@ -6,7 +6,7 @@ categories: String data structures
 
 ## Problems
 - [Palindromic Contest](http://acm.timus.ru/problemset.aspx?space=276)
-- [The Number of Palindromes](http://www.bnuoj.com/v3/problem_show.php?pid=8053)
+- The Number of Palindromes (HDOJ 3948)
 - [Number of Palindromes](http://www.spoj.com/problems/NUMOFPAL/)
 - [Palindrome Substring](https://open.kattis.com/problems/palindromesubstring)
 - [Palindromes](http://apio-olympiad.org/2014/apio2014_problemset.pdf)

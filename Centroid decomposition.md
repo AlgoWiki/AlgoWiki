@@ -7,7 +7,7 @@ categories: Algorithm techniques, Graph algorithms
 - [BST maintenance](https://www.hackerrank.com/challenges/bst-maintenance)
 - [Ciel the Commander](http://codeforces.com/contest/321/problem/C)
 - [Query on a tree V](http://www.spoj.com/problems/QTREE5/)
-- [Race](http://www.ioi2011.or.th/hsc/tasks/EN/race.pdf)
+- [Race](https://ioinformatics.org/files/ioi2011problem2.pdf)
 - [Prime Distance on Tree](https://www.codechef.com/problems/PRIMEDST)
 - [Vacation](https://www.codechef.com/problems/TESTERS)
 - [Union on Tree](https://www.codechef.com/problems/BTREE)

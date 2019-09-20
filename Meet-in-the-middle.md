@@ -7,7 +7,7 @@ categories: Algorithm techniques
 - [Number Mind](https://projecteuler.net/problem=185)
 - [Criss Cross](https://projecteuler.net/problem=166)
 - [Almost Pi](https://projecteuler.net/problem=461)
-- [Codeforces](http://codeforces.com/problemset/tags/meet-in-the-middle?order=BY_SOLVED_DESC)
+- [Codeforces](http://codeforces.com/problemset?tags=meet-in-the-middle)
 
 ## External links
 - [Meet in the middle](https://www.geeksforgeeks.org/meet-in-the-middle/)

@@ -25,4 +25,4 @@ The union-find data structure can be extended to support an undo operation. By r
 - [Chef and Graph Queries](https://www.codechef.com/MARCH14/problems/GERALD07)
 - [Disconnected Graph](http://codeforces.com/gym/100551/problem/E)
 
-[^1]: <http://ncpc.idi.ntnu.no/ncpc2016/ncpc2016slides.pdf>
+[^1]: <http://nordic.icpc.io/ncpc2016/ncpc2016slides.pdf>

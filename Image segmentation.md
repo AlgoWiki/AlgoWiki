@@ -4,7 +4,7 @@ categories: Graph algorithms
 
 ## Problems
 - [Pool construction](http://archive.algo.is/icpc/nwerc/2011/nwerc2011-problemset_2.pdf) [^1]
-- [Landscaping](http://swerc.up.pt/2015/reports/problemset.pdf) [^2]
+- [Landscaping](https://archive.algo.is/icpc/swerc/2015/problemset.pdf) [^2]
 - [Economical Coverage](https://open.kattis.com/problems/ecocover)
 
 ## External links
@@ -15,4 +15,4 @@ categories: Graph algorithms
 
 
 [^1]: <http://archive.algo.is/icpc/nwerc/2011/nwerc2011-solutions.pdf>
-[^2]: <http://swerc.up.pt/2015/reports/SWERC2015_presentation.pdf>
+[^2]: <https://archive.algo.is/icpc/swerc/2015/SWERC2015_presentation.pdf>

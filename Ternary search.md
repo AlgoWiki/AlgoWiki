@@ -9,7 +9,7 @@ categories: Numerical methods
 - [Calculator](https://www.codechef.com/JULY17/problems/CALC)
 
 ## External links
-- [Ternary Search](https://e-maxx-eng.appspot.com/num_methods/ternary_search.html)
+- [Ternary Search](https://cp-algorithms.com/num_methods/ternary_search.html)
 - [Ternary Search Tutorial](https://www.hackerearth.com/practice/algorithms/searching/ternary-search/tutorial/)
 - [HackerEarth Problems](https://www.hackerearth.com/practice/algorithms/searching/ternary-search/practice-problems/)
 - [Codeforces Problems](http://codeforces.com/problemset/tags/ternary%20search)

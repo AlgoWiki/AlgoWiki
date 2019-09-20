@@ -6,4 +6,4 @@
 - [Greedy Algorithms I](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf), optimal caching, pg. 33.
 - [Cache replacement policies](https://en.wikipedia.org/wiki/Cache_replacement_policies)
 
-[^1]: <http://ncpc.idi.ntnu.no/ncpc2008/ncpc2008slides.pdf>
+[^1]: <http://nordic.icpc.io/ncpc2008/ncpc2008slides.pdf>

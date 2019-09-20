@@ -13,5 +13,5 @@ categories: Combinatorial optimization
 - [Edmonds' algorithm](https://en.wikipedia.org/wiki/Chu%E2%80%93Liu/Edmonds_algorithm)
 
 [^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+584>
-[^2]: <http://www.nwerc.eu/files/nwerc2018slides-handout.pdf>
+[^2]: <http://2018.nwerc.eu/files/nwerc2018slides-handout.pdf>
 [^3]: <http://codeforces.com/blog/entry/5531?#comment-108144>

@@ -17,7 +17,7 @@ the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
 - [Alphabet soup](http://pc.fdi.ucm.es/SWERC-set.pdf)
 - [Drum Decorator](https://code.google.com/codejam/contest/8234486/dashboard#s=p3&a=3) [^1]
 - [Count the Necklaces](https://www.hackerrank.com/contests/infinitum12/challenges/count-the-necklaces)
-- [Cube Coloring](https://csacademy.com/contest/beta-round-8/#task/cube-coloring)
+- [Cube Coloring](https://csacademy.com/contest/beta-round-8/task/cube-coloring/)
 
 ## See also
 - [Pólya enumeration theorem]()
@@ -25,7 +25,7 @@ the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
 
 ## External links
 - [Burnsides Lemma](https://www.hackerrank.com/topics/burnsides-lemma)
-- [Burnside's lemma: orbit-counting theorem (cube and necklace colorings)](http://2000clicks.com/mathhelp/CountingBurnsidesLemma.aspx)
+- [Burnside's lemma: orbit-counting theorem (cube and necklace colorings)](https://web.archive.org/web/20190308141747/http://2000clicks.com/mathhelp/CountingBurnsidesLemma.aspx)
 - [Burnside's lemma](http://petr-mitrichev.blogspot.com/2008/11/burnsides-lemma.html)
 - [Burnside's Lemma](http://www.imomath.com/index.php?options=249&lmm=1)
 
