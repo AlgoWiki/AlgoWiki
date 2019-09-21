@@ -2,7 +2,7 @@
 categories: Graph theory
 ...
 
-*Dilworth's theorem* states that the length of a longest [antichain](Partially ordered set#Antichain) in a [partially ordered set](Partially ordered set) $S$ is equal to the size of a minimum [partition](Partition) of $S$ into [chains](Partially ordered set#Chain).
+*Dilworth's theorem* states that the length of a longest [antichain](Partially ordered set#Antichain) in a [partially ordered set](Partially ordered set) $S$ is equal to the size of a minimum [partition](Partition) of $S$ into [chains](Partially ordered set#chain).
 
 If the poset is represented as a [directed acyclic graph](Directed acyclic graph), the minimum partition into chains is equivalent to the [vertex-disjoint path cover](Vertex-disjoint path cover) problem.
 

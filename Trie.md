@@ -20,14 +20,14 @@ should be used to mark this fact.
 Tries can be used to compute [longest common prefix](Longest common prefix),
 [longest common suffix](Longest common suffix), [longest common
 substring](Longest common substring), [string matching](String matching), and
-[string matching with mistakes](String matching#Variants), to name a few applications.
+[string matching with mistakes](String matching#variants), to name a few applications.
 
 By [augmenting](Data structure augmentation) tries, it can be made into a very
-flexible data structure. See problem [Xor Queries](#Problems) for an example.
+flexible data structure. See problem [Xor Queries](#problems) for an example.
 
 ## Variants
 
-When all [suffixes](String#Definitions) of a string are inserted into a trie, the
+When all [suffixes](String#definitions) of a string are inserted into a trie, the
 trie is called a [suffix trie](Suffix trie). This has time and memory
 complexity $O(n^2)$, where $n$ is the length of the string. [Suffix
 trees](Suffix tree) achieve this in $O(n)$ time and memory by not explicitly

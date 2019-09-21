@@ -8,7 +8,7 @@
 > TODO: Describe $O(\log W)$ reduction from bounded knapsack to 0/1 knapsack (only works when optimizing?) [^1] [^2]
 
 ### Unbounded knapsack problem
-Unbounded knapsack can be reduced to 0/1 knapsack in a similar manner as [bounded knapsack](#Bounded knapsack problem).
+Unbounded knapsack can be reduced to 0/1 knapsack in a similar manner as [bounded knapsack](#bounded-knapsack-problem).
 
 ### Fractional knapsack problem
 > TODO: Describe [greedy algorithm](Greedy algorithm)

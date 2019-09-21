@@ -9,5 +9,5 @@ categories: Data structure techniques
 
 ## See also
 - [Hashing]()
-- [Graph isomorphism#Trees]()
+- [Graph isomorphism#trees]()
 

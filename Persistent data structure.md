@@ -9,7 +9,7 @@ categories: Data structures
 
 ## See also
 - [Persistent segment tree]()
-- [Union-find data structure#Undo operation]()
+- [Union-find data structure#undo-operation]()
 
 
 [^1]: <http://codeforces.com/group/qo1icaI3vI/blog/entry/843>
