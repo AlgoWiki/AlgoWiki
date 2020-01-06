@@ -12,6 +12,7 @@ Matroid partitioning can be reduced to Matroid intersection [^8].
 - [FoxAirline2](https://community.topcoder.com/stat?c=problem_statement&pm=14194&rd=16689)
 - [ColoringEdgesDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=14909&rd=17198) [^2]
 - [JobPlanner](https://community.topcoder.com/stat?c=problem_statement&pm=6177) [^3]
+- [Seollal](http://codeforces.com/contest/1284/problem/G) [^9]
 - [XorGame](https://contest.yandex.com/algorithm2017/contest/4737/problems/F/) [^4] [^5]
 
 ## See also
@@ -41,3 +42,4 @@ Matroid partitioning can be reduced to Matroid intersection [^8].
 [^6]: <https://petr-mitrichev.blogspot.com/2017/12/a-transversal-week.html>
 [^7]: <http://codeforces.com/blog/entry/55201?#comment-390963>
 [^8]: <https://codeforces.com/blog/entry/43871?#comment-285163>
+[^9]: <http://codeforces.com/blog/entry/72804>
