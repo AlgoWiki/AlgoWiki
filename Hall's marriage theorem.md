@@ -9,6 +9,7 @@ categories: Graph theory
 
 ## See also
 - [Bipartite matching]()
+- [Latin squares]()
 
 ## External links
 - [Hall's marriage theorem](https://en.wikipedia.org/wiki/Hall%27s_marriage_theorem)
