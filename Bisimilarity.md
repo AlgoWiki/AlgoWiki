@@ -6,6 +6,7 @@ categories: Graph theory
 - [Maze Reduction](https://open.kattis.com/problems/maze) [^1] [^2] [^3] [^6]
 - [TwistyPassages](http://community.topcoder.com/stat?c=problem_statement&pm=8282) [^4]
 - [Driver Disagreement](https://archive.algo.is/icpc/nwerc/bapc/2018/problems/D.pdf) [^5]
+- [Structural Equivalence](https://open.kattis.com/problems/structuralequivalence)
 
 ## See also
 - [DFA equivalence]()
