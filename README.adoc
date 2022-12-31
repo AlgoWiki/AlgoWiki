@@ -6,7 +6,7 @@ pass:[
     <hr />
 </p>
 ]
-image:https://travis-ci.org/AlgoWiki/AlgoWiki.svg?branch=master["Build Status", link="https://travis-ci.org/AlgoWiki/AlgoWiki"]
+image:https://github.com/AlgoWiki/AlgoWiki/actions/workflows/ci.yml/badge.svg["Build Status", link="https://github.com/AlgoWiki/AlgoWiki/actions"]
 image:https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png["CC BY SA License", link="https://creativecommons.org/licenses/by-sa/4.0/", width=80]
 
 AlgoWiki is a wiki dedicated to competitive programming. This repository
