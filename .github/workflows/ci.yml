@@ -12,5 +12,5 @@ jobs:
       - name: Set up awesome_bot
         run: gem install awesome_bot
       - name: Check for broken links
-        # Web Archive sometimes times out
-        run: awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'web.archive.org' wiki/*.md
+        # Web Archive and TopCoder sometimes time out
+        run: awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'web.archive.org,www.topcoder.com' wiki/*.md
