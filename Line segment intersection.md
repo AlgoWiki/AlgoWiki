@@ -4,7 +4,7 @@ categories: Geometry
 
 ## Problems
 - [Line Segment Intersection](https://open.kattis.com/problems/segmentintersection)
-- [Detour Buster](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=507&page=show_problem&problem=3691)
+- [Detour Buster](https://web.archive.org/web/20210127145520/https://icpcarchive.ecs.baylor.edu/external/56/5690.pdf)
 - [Simple Polygon](http://codeforces.com/gym/100486)
 
 ## See also

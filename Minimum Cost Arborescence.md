@@ -3,7 +3,7 @@ categories: Combinatorial optimization
 ...
 
 ## Problems
-- [Teen Girl Squad](https://uva.onlinejudge.org/external/111/11183.pdf)
+- [Teen Girl Squad](https://onlinejudge.org/external/111/11183.pdf)
 - [FoxTheLinguist](https://community.topcoder.com/stat?c=problem_statement&pm=12614&rd=15696) [^1]
 - [Fastest Speedrun](https://open.kattis.com/problems/fastestspeedrun) [^2]
 - [Road Repairs](http://codeforces.com/contest/240/problem/E) [^3]

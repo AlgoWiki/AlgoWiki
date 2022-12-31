@@ -26,11 +26,11 @@ walk(root, -1);
 ## Problems
 - [Moving to Nuremberg](https://open.kattis.com/problems/nuremberg) [^1]
 - [Kamp](https://open.kattis.com/problems/kamp)
-- [Postman](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf) [^2] [^5]
+- [Postman](https://web.archive.org/web/20191101075303/http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf) [^2] [^5]
 - [JZPTREE](http://acm.hdu.edu.cn/showproblem.php?pid=4625) [^3][^4]
 
-[^1]: <http://2009.nwerc.eu/results/solOutline.pdf>
-[^2]: <http://amppz.ii.uni.wroc.pl/amppz2015/files/rozwiazania.pdf>
+[^1]: <https://archive.algo.is/icpc/nwerc/2009/solOutline.pdf>
+[^2]: <https://web.archive.org/web/20191113062218/http://amppz.ii.uni.wroc.pl/amppz2015/files/rozwiazania.pdf>
 [^3]: <https://archive.algo.is/camps/mipt/2016/statement4a.pdf>
 [^4]: <https://archive.algo.is/camps/mipt/2016/editorial4a.pdf>
 [^5]: <https://archive.algo.is/camps/mipt/2015/day1/editorial.pdf>

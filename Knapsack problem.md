@@ -17,7 +17,7 @@ Unbounded knapsack can be reduced to 0/1 knapsack in a similar manner as [bounde
 - [Knapsack](https://open.kattis.com/problems/knapsack)
 - [Walrus Weights](https://open.kattis.com/problems/walrusweights)
 - [Roller coaster fun](https://open.kattis.com/problems/rollercoasterfun)
-- [Tug of War](http://www.boi2015.mimuw.edu.pl/useruploads/files/boi2015-day2.pdf)
+- [Tug of War](https://boi.cses.fi/files/boi2015_day2.pdf)
 - [Buffed Buffet](https://open.kattis.com/problems/buffet)
 - [Lucky Country](http://codeforces.com/problemset/problem/95/E) [^3]
 

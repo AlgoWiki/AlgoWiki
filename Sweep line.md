@@ -14,7 +14,7 @@ categories: Algorithm techniques, Graph algorithms
 ## Angular sweep
 
 ### Problems
-- [Logging](https://code.google.com/codejam/contest/4224486/dashboard#s=p2&a=2)
+- [Logging](https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433d3a)
 - [Phone Cell](http://contest.felk.cvut.cz/07cerc/solved/c/)
 - [Beacons](https://open.kattis.com/problems/beacons)
 

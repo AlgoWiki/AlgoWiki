@@ -3,7 +3,7 @@ categories: Graph theory
 ...
 
 ## Problems
-- [Stock Charts](https://code.google.com/codejam/contest/dashboard?c=204113#s=p2) [^1]
+- [Stock Charts](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432a83) [^1]
 
 ## See also
 - [Dilworth's theorem](Dilworth's theorem)
@@ -13,4 +13,4 @@ categories: Graph theory
 - [Minimum path cover in directed acyclic graph](https://en.wikipedia.org/wiki/Maximum_flow_problem#Minimum_path_cover_in_directed_acyclic_graph)
 
 
-[^1]: <https://code.google.com/codejam/contest/dashboard?c=204113#s=a&a=2>
+[^1]: <https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432a83#analysis>

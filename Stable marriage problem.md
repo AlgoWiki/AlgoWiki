@@ -3,10 +3,10 @@ categories: Graph algorithms, Graph theory
 ...
 
 ## Problems
-- [The Stable Marriage Problem](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1838)
+- [The Stable Marriage Problem](https://web.archive.org/web/20210119063349/https://icpcarchive.ecs.baylor.edu/external/38/3837.pdf)
 - [Stable Marriage Problem](https://www.codechef.com/problems/STABLEMP)
 - [Jealous Youngsters](https://open.kattis.com/problems/jealousyoungsters) [^1]
-- [Chemical Attraction](https://uva.onlinejudge.org/external/111/11119.pdf) 
+- [Chemical Attraction](https://onlinejudge.org/external/111/11119.pdf) 
 
 ## See also
 - [Bipartite matching]()

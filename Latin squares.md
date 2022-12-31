@@ -12,5 +12,5 @@
 - [Latin squares](http://www.math.caltech.edu/~2015-16/1term/ma006a/28.%20Latin%20Squares.pdf)
 
 [^1]: <https://cs.baylor.edu/~hamerly/icpc/qualifier_2018/outlines-naq-2018.pdf>
-[^2]: <http://serjudging.vanb.org/wp-content/uploads/science.java>
+[^2]: <https://web.archive.org/web/20200114203126/http://serjudging.vanb.org/wp-content/uploads/science.java>
 [^3]: <https://codeforces.com/blog/entry/71545?#comment-598143>

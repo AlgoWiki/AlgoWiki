@@ -7,7 +7,7 @@ categories: Combinatorics
 - [Cycles (Hard)](https://open.kattis.com/problems/cycleshard)
 
 ## External links
-- [The Inclusion-Exclusion Principle](https://e-maxx-eng.appspot.com/combinatorics/inclusion-exclusion.html)
+- [The Inclusion-Exclusion Principle](https://cp-algorithms.com/combinatorics/inclusion-exclusion.html)
 
 [^1]: <http://ayurjain.blogspot.is/2016/08/principle-of-inclusion-exclusion.html>
 [^2]: <http://codeforces.com/blog/entry/13181>

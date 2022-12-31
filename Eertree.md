@@ -9,7 +9,7 @@ categories: String data structures
 - The Number of Palindromes (HDOJ 3948)
 - [Number of Palindromes](http://www.spoj.com/problems/NUMOFPAL/)
 - [Palindrome Substring](https://open.kattis.com/problems/palindromesubstring)
-- [Palindromes](http://apio-olympiad.org/2014/apio2014_problemset.pdf)
+- [Palindromes](https://archive.algo.is/ioi/apio/2014/apio2014_problemset.pdf)
 - [The Problem to Slow Down You](http://codeforces.com/gym/100548)
 - [Lucy and Flowers](https://www.codechef.com/problems/DECORATE) [^1]
 - [Build a Palindrome](https://www.hackerrank.com/contests/world-codesprint-5/challenges/challenging-palindromes)

@@ -14,7 +14,7 @@ The union-find data structure can sometimes be used to support edge deletion ins
 To support both insertions and deletions, see [Dynamic connectivity]().
 
 ### Problems
-- [Islands](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=360&page=show_problem&problem=2628)
+- [Islands](https://archive.algo.is/icpc/cerc/2009/island.pdf)
 - [Escape from Enemy Territory](https://open.kattis.com/problems/enemyterritory)
 - [Artwork](https://open.kattis.com/problems/artwork) [^1]
 

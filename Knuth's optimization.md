@@ -10,7 +10,7 @@ The naive way of computing this recurrence with dynamic programming takes $O(n^3
 
 ## Problems
 
-- [Optimal Binary Search Tree](https://uva.onlinejudge.org/external/103/10304.pdf)
+- [Optimal Binary Search Tree](https://onlinejudge.org/external/103/10304.pdf)
 - [Guardians of the Lunatics](https://www.hackerrank.com/contests/ioi-2014-practice-contest-2/challenges/guardians-lunatics-ioi14) [^1]
 - [Order-Preserving Codes](http://codeforces.com/gym/100212)
 - [Breaking Strings](http://www.spoj.com/problems/BRKSTRNG/)

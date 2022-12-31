@@ -25,10 +25,10 @@ For some example code you can look at my [implementation](https://github.com/Sup
 
 - [Robert Hood](https://open.kattis.com/problems/roberthood)
 - [Fossil in the Ice](http://www.spoj.com/problems/TFOSS/)
-- [Trash Removal](https://uva.onlinejudge.org/external/11/p1111.pdf)
+- [Trash Removal](https://onlinejudge.org/external/11/p1111.pdf)
 - [Fence Orthogonality](https://open.kattis.com/problems/fenceortho)
 - [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
-- [Smallest Enclosing Rectangle](https://uva.onlinejudge.org/external/123/12307.pdf)
+- [Smallest Enclosing Rectangle](https://onlinejudge.org/external/123/12307.pdf)
 
 ## See also
 - [Sweep line]()

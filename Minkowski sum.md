@@ -43,10 +43,10 @@ If one polygon is convex and another one is not, the complexity of their Minkows
 
 ## Problems
 - [Minkowski Sums](https://projecteuler.net/problem=228)
-- [Kiddie Pool](https://code.google.com/codejam/contest/8234486/dashboard#s=p1&a=3) [^1]
+- [Kiddie Pool](https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/0000000000433a10) [^1]
 - [Board game](http://amppz.ii.uni.wroc.pl/amppz2015/files/zadania_en.pdf)
 - [Fireworks](https://www.docdroid.net/eviUqH5/fireworks-en.pdf.html) [^2]
-- [Bridge Building](http://opencup.ru/files/ocf/gp13/problems1-e.pdf) [^3]
+- [Bridge Building](https://archive.algo.is/opencup/ocf/gp13/problems1-e.pdf) [^3]
 - [Mogohu Ree Idol](http://codeforces.com/contest/87/problem/E) [^4]
 - [TrianglePainting](https://community.topcoder.com/stat?c=problem_statement&pm=13775) [^5]
 - [Gears](http://codeforces.com/contest/497/problem/D) [^6]

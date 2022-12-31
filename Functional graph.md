@@ -3,7 +3,7 @@ categories: Graph theory
 ...
 
 ## Problems
-- [Forwarding Emails](https://uva.onlinejudge.org/external/124/12442.pdf) [^3]
+- [Forwarding Emails](https://onlinejudge.org/external/124/12442.pdf) [^3]
 - [Mafija](https://open.kattis.com/problems/mafija)
 - [Kernel Knights](http://cerc.hsin.hr/2015/tasks/cerc2015_problems.pdf) [^2]
 - [Portaler](https://po.kattis.com/problems/portaler) (Swedish)

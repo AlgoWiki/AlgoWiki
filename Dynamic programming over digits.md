@@ -2,7 +2,7 @@
 - [LUCIFER Number](http://www.spoj.com/problems/LUCIFER/)
 - [Ticket Draw](https://open.kattis.com/problems/tickets)
 - [Tractor](https://open.kattis.com/problems/tractor)
-- [New Lottery Game](https://code.google.com/codejam/contest/2994486/dashboard#s=p1)
+- [New Lottery Game](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90/0000000000433096)
 - [Odd Elimination](https://projecteuler.net/problem=539)
 - [A weird recurrence relation](https://projecteuler.net/problem=463)
 

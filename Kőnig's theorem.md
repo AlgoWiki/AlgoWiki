@@ -4,8 +4,8 @@ categories: Graph theory
 
 ## Problems
 - [Sensor Network](https://open.kattis.com/problems/sensor)
-- [SAM I AM](https://uva.onlinejudge.org/external/114/11419.pdf)
-- [Guardian of Decency](https://uva.onlinejudge.org/external/120/12083.pdf)
+- [SAM I AM](https://onlinejudge.org/external/114/11419.pdf)
+- [Guardian of Decency](https://onlinejudge.org/external/120/12083.pdf)
 - [Cat vs. Dog](https://open.kattis.com/problems/catvsdog)
 
 ## See also

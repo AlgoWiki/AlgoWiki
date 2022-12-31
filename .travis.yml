@@ -11,12 +11,8 @@ before_script:
 
 # Run broken link check
 script:
-    # CodeChef is white-listed as it frequently returns 504
     # Web Archive sometimes times out
-    # community.topcoder.com sometimes times out
-    # TOOD: Don't white-list CodeChef
-    # TOOD: Don't white-list blog.anudeep2011.com (Certificate was expired)
-  - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'codechef.com,blog.anudeep2011.com,web.archive.org,community.topcoder.com' *.md
+  - awesome_bot --allow-dupe --allow-redirect --skip-save-results --white-list 'web.archive.org' *.md
 
 
 

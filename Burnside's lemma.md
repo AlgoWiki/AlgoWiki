@@ -14,8 +14,8 @@ the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
 - [Lucy and the Flowers](https://www.codechef.com/problems/DECORATE)
 - [Sorting Machine](http://www.spoj.com/problems/SRTMACH/)
 - [Pizza Toppings](https://projecteuler.net/problem=281)
-- [Alphabet soup](http://pc.fdi.ucm.es/SWERC-set.pdf)
-- [Drum Decorator](https://code.google.com/codejam/contest/8234486/dashboard#s=p3&a=3) [^1]
+- [Alphabet soup](https://archive.algo.is/icpc/swerc/2011/SWERC-set.pdf) [^2]
+- [Drum Decorator](https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/000000000043373a) [^1]
 - [Count the Necklaces](https://www.hackerrank.com/contests/infinitum12/challenges/count-the-necklaces)
 - [Cube Coloring](https://csacademy.com/contest/beta-round-8/task/cube-coloring/)
 
@@ -27,6 +27,7 @@ the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
 - [Burnsides Lemma](https://www.hackerrank.com/topics/burnsides-lemma)
 - [Burnside's lemma: orbit-counting theorem (cube and necklace colorings)](https://web.archive.org/web/20190308141747/http://2000clicks.com/mathhelp/CountingBurnsidesLemma.aspx)
 - [Burnside's lemma](http://petr-mitrichev.blogspot.com/2008/11/burnsides-lemma.html)
-- [Burnside's Lemma](http://www.imomath.com/index.php?options=249&lmm=1)
+- [Burnside's Lemma](https://imomath.com/index.cgi?page=BurnsidesLemma)
 
 [^1]: <http://codeforces.com/blog/entry/18204?#comment-231223>
+[^1]: <https://archive.algo.is/icpc/swerc/2011/SWERC-sols.pdf>

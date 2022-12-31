@@ -24,6 +24,6 @@ Time complexity is $O(n3^k + n^22^k)$.
 - [NP-complete]()
 
 ## External links
-- [The Steiner Problem in Graphs](http://sci-hub.cc/10.1002/net.3230010302)
+- <a href="https://sci-hub.se/https://doi.org/10.1016/S0304-0208(08)73236-5">The Steiner Problem in Graphs</a>
 
 [^1]: <http://2013.bapc.eu/docs/bapc2013juryslides.pdf>
