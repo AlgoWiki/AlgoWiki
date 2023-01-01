@@ -1,5 +1,5 @@
 ---
-category: Logic
+categories: Logic
 ...
 
 ## Problems
