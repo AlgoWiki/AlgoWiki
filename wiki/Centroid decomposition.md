@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Graph algorithms
-...
+---
 
 ## Problems
 - [Xenia and Tree](http://codeforces.com/contest/342/problem/E)

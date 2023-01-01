@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms
-...
+---
 
 ## Problems
 - [Pool construction](http://archive.algo.is/icpc/nwerc/2011/nwerc2011-problemset_2.pdf) [^1]

@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [Jogging Trails](https://open.kattis.com/problems/joggingtrails)

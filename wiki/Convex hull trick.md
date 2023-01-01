@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Data structures
-...
+---
 
 Not to be confused with [convex hull](Convex hull), the **convex hull trick** is a [dynamic programming optimization](Dynamic programming optimization) technique. It can be thought of as a [data structure](Data structure) supporting the following operations:
 

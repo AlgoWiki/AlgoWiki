@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Book Club](https://open.kattis.com/problems/bookclub) [^1]

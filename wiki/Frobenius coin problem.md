@@ -1,6 +1,6 @@
 ---
 categories: Number theory
-...
+---
 
 Given a list of positive integers $a_1,\ldots,a_n$, the *Frobenius coin problem* asks for the largest integer $N$ such that the equation
 $$ x_1 a_1 + \cdots + x_n a_n = N $$

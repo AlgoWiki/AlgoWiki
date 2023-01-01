@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 **Binary search** is an algorithm technique based on the [Divide and conquer]() paradigm.
 The most common example of binary search is to find an element in a sorted array in logarithmic time.

@@ -1,6 +1,6 @@
 ---
 categories: Logic
-...
+---
 
 ## Problems
 - [Idol](http://2012.nwerc.eu/media/NWERC_2012_ProblemSet_FINAL.pdf) [^3]

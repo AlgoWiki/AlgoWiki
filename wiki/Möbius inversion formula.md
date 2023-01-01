@@ -1,6 +1,6 @@
 ---
 categories: Number theory
-...
+---
 
 ## Problems
 - [GCD Extreme](https://onlinejudge.org/external/114/p11426.pdf) [^2]

@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Odd Binomial Coefficients](https://open.kattis.com/problems/oddbinom)

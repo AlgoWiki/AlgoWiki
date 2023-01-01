@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Unique Snowflakes](https://open.kattis.com/problems/snowflakes)

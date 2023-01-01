@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [The Stable Marriage Problem](https://web.archive.org/web/20210119063349/https://icpcarchive.ecs.baylor.edu/external/38/3837.pdf)

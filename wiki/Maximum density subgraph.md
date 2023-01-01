@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [Hard Life](http://poj.org/problem?id=3155)

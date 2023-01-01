@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Breaking Bad](https://open.kattis.com/problems/breakingbad)

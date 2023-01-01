@@ -1,6 +1,6 @@
 ---
 categories: Graph theory, Graph algorithms, Combinatorial optimization
-...
+---
 
 ## Problems
 - [Freckles](https://open.kattis.com/problems/freckles)

@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Graph algorithms
-...
+---
 
 ## Problems
 - [Tourists](https://open.kattis.com/problems/tourists)

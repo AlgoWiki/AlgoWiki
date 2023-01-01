@@ -1,6 +1,6 @@
 ---
 categories: String data structures
-...
+---
 
 ## Problems
 - [SUBST1 - New Distinct Substrings](http://www.spoj.com/problems/SUBST1/)

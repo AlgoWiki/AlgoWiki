@@ -1,6 +1,6 @@
 ---
 categories: Physics
-...
+---
 
 *Snell's law* is a formula used to describe the relationship between the angles of incidence and refraction, when referring to light or other waves passing through a boundary between two different isotropic media, such as water, glass, or air.
 

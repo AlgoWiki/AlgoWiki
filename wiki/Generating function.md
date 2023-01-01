@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 A generating function is a [formal power series](Formal power series) where the coefficient at $x^n$ usually counts the number of combinatorial objects of size $n$.
 

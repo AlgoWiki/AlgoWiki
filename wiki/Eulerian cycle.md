@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [Achromatic Number](http://codeforces.com/gym/100431) [^1]

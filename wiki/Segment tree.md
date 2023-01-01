@@ -1,6 +1,6 @@
 ---
 categories: Data structures
-...
+---
 
 ## Problems
 - [GCD 2010](http://acm.timus.ru/problem.aspx?space=1&num=1846)

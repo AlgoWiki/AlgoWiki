@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 ## Problems
 - [Devu and Flowers](http://codeforces.com/contest/451/problem/E) [^1] [^2]

@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 ## Cycle indices of some permutation groups
 

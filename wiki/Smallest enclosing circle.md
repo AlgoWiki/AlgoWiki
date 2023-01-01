@@ -1,6 +1,6 @@
 ---
 categories: Geometry
-...
+---
 
 ## Problems
 -  [Stars in a Can](https://open.kattis.com/problems/starsinacan)

@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [Enemy Division](https://nordic.icpc.io/ncpc2011/ncpc2011problems.pdf) [^1]

@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics, Graph theory
-...
+---
 
 ## Problems
 - [Coloured Configurations](https://projecteuler.net/problem=194)

@@ -1,6 +1,6 @@
 ---
 categories: Algorithms
-...
+---
 
 ## Problems
 - [Nim](https://community.topcoder.com/stat?c=problem_statement&pm=11469&rd=14543) [^1]

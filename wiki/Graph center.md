@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Trees
 ### Problems

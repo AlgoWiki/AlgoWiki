@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 Say we have a set of elements $X$, as well as an [equivalence relation](Equivalence relation) defined on $X$. The equivalence relation partitions the elements of $X$ into a set of equivalence classes. A '''class representative''' is a distinguished element of a class, and each equivalence class should have a unique representative.
 

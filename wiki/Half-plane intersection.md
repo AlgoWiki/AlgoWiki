@@ -1,6 +1,6 @@
 ---
 categories: Geometry algorithms
-...
+---
 
 ## Problems
 - [Asymmetry Value](https://contest.yandex.com/contest/2540/problems/F/) [^1] [^2] [^3]

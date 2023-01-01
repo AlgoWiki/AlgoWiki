@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 ## Operations
 

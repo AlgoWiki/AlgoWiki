@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Surveillance](https://icpc.kattis.com/problems/surveillance) [^1]

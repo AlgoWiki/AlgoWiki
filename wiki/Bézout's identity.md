@@ -1,6 +1,6 @@
 ---
 categories: Number theory
-...
+---
 
 ## Problems
 - [Cutting Banknotes](http://codeforces.com/gym/100506)

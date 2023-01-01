@@ -1,6 +1,6 @@
 ---
 categories: Linear algebra, Numerical methods
-...
+---
 
 ## Problems
 - [Simple Calculations](http://acm.timus.ru/problem.aspx?space=1&num=1047)

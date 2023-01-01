@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory, Combinatorial optimization
-...
+---
 
 ## Problems
 - [The King of the North](https://open.kattis.com/problems/thekingofthenorth) [^1]

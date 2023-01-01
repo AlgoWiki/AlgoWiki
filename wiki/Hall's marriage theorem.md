@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [DZY Loves Planting](http://codeforces.com/contest/444/problem/E)

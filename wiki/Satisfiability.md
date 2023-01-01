@@ -1,6 +1,6 @@
 ---
 categories: Logic
-...
+---
 
 ## Problems
 - [Board Covering](https://open.kattis.com/problems/boardcovering)

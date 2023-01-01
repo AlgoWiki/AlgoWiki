@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 
 ## External links

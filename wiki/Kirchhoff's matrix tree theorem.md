@@ -1,6 +1,6 @@
 ---
 categories: Linear algebra, Combinatorics, Graph theory
-...
+---
 
 ## Problems
 - [Organising the Organisation](https://open.kattis.com/problems/organising)

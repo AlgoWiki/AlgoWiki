@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Graph algorithms
-...
+---
 
 ## Linear sweep
 

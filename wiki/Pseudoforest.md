@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 A **pseudoforest** is an [undirected graph](Undirected graph) in which every [connected component](Connected component) has at most one [cycle](Cycle (graph theory)).
 

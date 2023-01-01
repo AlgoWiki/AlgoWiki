@@ -1,6 +1,6 @@
 ---
 categories: Geometry
-...
+---
 
 ## Problems
 - [Getting Through](https://open.kattis.com/problems/gettingthrough)

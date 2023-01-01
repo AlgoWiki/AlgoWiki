@@ -1,6 +1,6 @@
 ---
 categories: Data structures
-...
+---
 
 ## Problems
 - [Stogovi](https://open.kattis.com/problems/stogovi)

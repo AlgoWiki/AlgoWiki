@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Forwarding Emails](https://onlinejudge.org/external/124/12442.pdf) [^3]

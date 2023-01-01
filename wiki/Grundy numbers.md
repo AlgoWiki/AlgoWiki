@@ -1,6 +1,6 @@
 ---
 categories: Game theory
-...
+---
 
 ## Problems
 - [S-Nim](https://open.kattis.com/problems/snim)

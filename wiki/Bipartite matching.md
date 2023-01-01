@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory, Combinatorial optimization
-...
+---
 
 ## Problems
 - [Gopher II](https://open.kattis.com/problems/gopher2)

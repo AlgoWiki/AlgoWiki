@@ -1,6 +1,6 @@
 ---
 categories: Geometry algorithms, Geometry
-...
+---
 
 ## Problems
 - [The Worm in the Apple](https://open.kattis.com/problems/worminapple) [^1] [^2]

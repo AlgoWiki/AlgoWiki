@@ -1,6 +1,6 @@
 ---
 categories: Geometry
-...
+---
 
 
 The *Minkowski sum* of two sets of position vectors $A$ and $B$ in Euclidean space is formed by adding each vector in $A$ to each vector in $B$, i.e., the set

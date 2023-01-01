@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Maze Reduction](https://open.kattis.com/problems/maze) [^1] [^2] [^3] [^6]

@@ -1,6 +1,6 @@
 ---
 categories: Linear algebra
-...
+---
 
 ## Problems
 - [A lagged Fibonacci sequence](https://projecteuler.net/problem=258)

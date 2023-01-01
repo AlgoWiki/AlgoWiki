@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [D-query](http://www.spoj.com/problems/DQUERY/)

@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Techniques
 - [Dynamic programming over digits]()

@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## In directed acyclic graphs
 Path cover in a [directed acyclic graph](Directed acyclic graph) can be reduced to [vertex-disjoint path cover](Vertex-disjoint path cover) in a directed acyclic graph by first taking the [transitive closure](Transitive closure).

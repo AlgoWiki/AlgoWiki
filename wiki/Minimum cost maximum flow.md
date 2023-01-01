@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Combinatorial optimization
-...
+---
 
 ## Problems
 - [Minimum Cost Maximum Flow](https://open.kattis.com/problems/mincostmaxflow)

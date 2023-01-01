@@ -1,6 +1,6 @@
 ---
 categories: String data structures
-...
+---
 
 ## Problems
 - [Suffix Sorting](https://open.kattis.com/problems/suffixsorting)

@@ -1,6 +1,6 @@
 ---
 categories: Geometry algorithms, Geometry
-...
+---
 
 ## Problems
 - [Convex Hull](https://open.kattis.com/problems/convexhull)

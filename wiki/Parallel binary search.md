@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Stamp Rally](http://agc002.contest.atcoder.jp/tasks/agc002_d) [^1]

@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Trees
 The longest path in a tree can be found in linear time.

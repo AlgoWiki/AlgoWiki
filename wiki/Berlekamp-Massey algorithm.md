@@ -1,6 +1,6 @@
 ---
 categories: Linear algebra
-...
+---
 
 ## Problems
 - [Macarons](https://open.kattis.com/problems/macarons)

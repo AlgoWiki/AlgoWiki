@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Trees
 See also [Center of a tree](Graph center#trees) and [Perfect hashing]().

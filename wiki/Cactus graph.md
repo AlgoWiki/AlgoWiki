@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Cactus](https://open.kattis.com/problems/cactus)

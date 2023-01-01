@@ -1,6 +1,6 @@
 ---
 categories: Data structures
-...
+---
 
 ## Implementations
 - [C++](https://ideone.com/Tkters)

@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Srednji](https://open.kattis.com/problems/srednji)

@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory
-...
+---
 
 ## Problems
 - [Outsourcing](https://open.kattis.com/problems/outsourcing) [^1]

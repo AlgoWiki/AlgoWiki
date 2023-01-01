@@ -1,6 +1,6 @@
 ---
 categories: Mathematics
-...
+---
 
 Sums of the form $$\sum_{i=1}^n \left\lfloor \frac{pi+q}{r} \right\rfloor$$ can be evaluated in $O(\log n)$ time. See [Summation of Floor Function Series](#external-links) for a special case.
 

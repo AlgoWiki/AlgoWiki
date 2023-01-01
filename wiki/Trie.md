@@ -1,6 +1,6 @@
 ---
 categories: String data structures
-...
+---
 
 A trie is a data structure that allows quick searches in a dictionary.
 Concretely, searching for a word of length $n$ in a trie has a complexity of

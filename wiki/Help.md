@@ -1,6 +1,6 @@
 ---
 format: Markdown
-...
+---
 
 # Navigating
 

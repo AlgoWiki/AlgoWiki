@@ -1,6 +1,6 @@
 ---
 categories: Combinatorial optimization
-...
+---
 
 ## Problems
 - [Teen Girl Squad](https://onlinejudge.org/external/111/11183.pdf)

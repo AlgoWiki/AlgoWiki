@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Geometry algorithms
-...
+---
 
 <!-- TODO: Factor this out into something reusable -->
 <div style="float:right; border: 1px solid #ddd; background-color: #eee; padding: 5px; margin: 5px;">

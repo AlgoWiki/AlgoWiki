@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 *Dilworth's theorem* states that the length of a longest [antichain](Partially ordered set#Antichain) in a [partially ordered set](Partially ordered set) $S$ is equal to the size of a minimum [partition](Partition) of $S$ into [chains](Partially ordered set#chain).
 

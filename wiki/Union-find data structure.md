@@ -1,6 +1,6 @@
 ---
 categories: Data structures
-...
+---
 
 ## Problems
 - [Disastrous Downfall](https://open.kattis.com/problems/downfall)

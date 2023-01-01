@@ -1,6 +1,6 @@
 ---
 categories: Data structures
-...
+---
 
 ## Problems
 - [Count on a tree](http://www.spoj.com/problems/COT/)

@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Sensor Network](https://open.kattis.com/problems/sensor)

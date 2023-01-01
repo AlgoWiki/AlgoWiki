@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques, Graph algorithms
-...
+---
 
 ## Problems
 - [Count on a tree II](http://www.spoj.com/problems/COT2/)

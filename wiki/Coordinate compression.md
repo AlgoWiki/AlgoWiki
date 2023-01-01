@@ -1,6 +1,6 @@
 ---
 categories: Algorithm techniques
-...
+---
 
 ## Problems
 - [Sculpture](https://open.kattis.com/problems/sculpture)

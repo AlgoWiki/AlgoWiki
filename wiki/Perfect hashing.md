@@ -1,6 +1,6 @@
 ---
 categories: Data structure techniques
-...
+---
 
 ## Problems
 - [The SetStack Computer](http://www.csc.kth.se/contest/nwerc/2006/problems/nwerc06.pdf)

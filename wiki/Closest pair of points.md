@@ -1,6 +1,6 @@
 ---
 categories: Geometry algorithms
-...
+---
 
 ## Algorithms
 

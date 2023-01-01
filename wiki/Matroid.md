@@ -1,6 +1,6 @@
 ---
 categories: Combinatorial optimization
-...
+---
 
 ## Matroid partitioning
 Matroid partitioning can be reduced to Matroid intersection [^8].

@@ -1,6 +1,6 @@
 ---
 categories: Algorithms
-...
+---
 
 ## Discrete Fourier transform in two dimensions
 To compute the discrete Fourier transform of a two-dimensional array, first compute the one-dimensional discrete Fourier transform of each row, replacing the contents of the row with the result, and then do the same for the columns. [^1]

@@ -1,6 +1,6 @@
 ---
 categories: Numerical methods
-...
+---
 
 ## Problems
 - [Chasing the Cheetahs](https://open.kattis.com/problems/cheetahs)

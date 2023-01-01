@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms
-...
+---
 
 ## Problems
 - [Erdős Numbers](https://open.kattis.com/problems/erdosnumbers)

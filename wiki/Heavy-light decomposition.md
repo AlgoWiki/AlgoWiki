@@ -1,6 +1,6 @@
 ---
 categories: Data structure techniques, Data structures, Graph algorithms
-...
+---
 
 ## Problems
 - [Problem L - Let there be rainbows!](https://ipsc.ksp.sk/2009/real/problems/l.html)

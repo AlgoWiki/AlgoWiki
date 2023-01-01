@@ -1,6 +1,6 @@
 ---
 categories: Geometry
-...
+---
 
 ## Problems
 - [Line Segment Intersection](https://open.kattis.com/problems/segmentintersection)

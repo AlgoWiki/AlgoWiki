@@ -1,6 +1,6 @@
 ---
 categories: Geometry
-...
+---
 
 ## Problems
 - [Square on the Inside](https://projecteuler.net/problem=504)

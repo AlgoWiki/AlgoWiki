@@ -1,6 +1,6 @@
 ---
 categories: Graph theory
-...
+---
 
 ## Problems
 - [Stock Charts](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432a83) [^1]

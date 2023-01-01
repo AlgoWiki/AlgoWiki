@@ -1,6 +1,6 @@
 ---
 categories: Graph algorithms, Graph theory, Combinatorial optimization
-...
+---
 
 ## Problems
 - [Maximum Flow](https://open.kattis.com/problems/maxflow)

@@ -1,6 +1,6 @@
 ---
 categories: Combinatorics
-...
+---
 
 ## Problems
 - [Chemistry](https://neerc.ifmo.ru/past/2012/northern/problems.pdf)
