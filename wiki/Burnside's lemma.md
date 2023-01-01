@@ -30,4 +30,4 @@ the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
 - [Burnside's Lemma](https://imomath.com/index.cgi?page=BurnsidesLemma)
 
 [^1]: <http://codeforces.com/blog/entry/18204?#comment-231223>
-[^1]: <https://archive.algo.is/icpc/swerc/2011/SWERC-sols.pdf>
+[^2]: <https://archive.algo.is/icpc/swerc/2011/SWERC-sols.pdf>
