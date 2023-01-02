@@ -1,0 +1,13 @@
+name: Publish AlgoWiki
+on: [push]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: Production
+    steps:
+      - name: Trigger workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          repository: AlgoWiki/Website
+          token: ${{ secrets.PAT }}
+          event-type: webhook
