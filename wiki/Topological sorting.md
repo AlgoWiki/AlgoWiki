@@ -12,5 +12,5 @@ categories: Graph theory
 - [Topological Sorting](https://en.wikipedia.org/wiki/Topological_sorting)
 - [Topological Sort](https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial/)
 - [Topological Sorting](https://www.geeksforgeeks.org/topological-sorting/)
-- [Topological Sort (DFS) Visualization](https://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html)
+- [Topological Sort (DFS) Visualization](https://web.archive.org/web/20221224230459/https://www.cs.usfca.edu/~galles/visualization/TopoSortDFS.html)
 
