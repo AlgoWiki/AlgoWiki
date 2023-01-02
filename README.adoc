@@ -15,7 +15,6 @@ https://wiki.algo.is.
 
 ## Contributing
 
-We appreciate any contributions to the wiki. You can contribute either by
-submitting a pull request to this repository, or by signing up for an account
-at https://wiki.algo.is and using the web interface.
+We appreciate any contributions to the wiki. You can contribute by submitting a
+pull request to this repository.
 
