@@ -10,8 +10,8 @@ If you can't find what you're looking for on the wiki, make sure you check out o
 
 ## Contributing
 
-We appreciate any contributions to the wiki. You can contribute either by
-[signing up](/_login) for an account on the site, or by submitting a pull request to
-the [AlgoWiki repository](https://github.com/AlgoWiki/AlgoWiki) on GitHub.
+We appreciate any contributions to the wiki. You can contribute by submitting a
+pull request to the [AlgoWiki repository](https://github.com/AlgoWiki/AlgoWiki)
+on GitHub.
 
 To learn more about editing articles, see [the Help page](Help).
