@@ -14,4 +14,4 @@ categories: Graph algorithms, Graph theory
 ## External links
 - [Stable marriage problem](https://en.wikipedia.org/wiki/Stable_marriage_problem)
 
-[^1]: <https://nordic.icpc.io/ncpc2019/ncpc19slides.pdf>
+[^1]: <https://archive.algo.is/icpc/nwerc/ncpc/2019/ncpc19slides.pdf>
