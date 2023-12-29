@@ -8,5 +8,5 @@ Sums of the form $$\sum_{i=1}^n \left\lfloor \frac{pi+q}{r} \right\rfloor$$ can 
 - [It's a Mod, Mod, Mod, Mod World](https://open.kattis.com/problems/itsamodmodmodmodworld)
 
 ## External links
-- [Summation of Floor Function Series](http://mathforum.org/library/drmath/view/73120.html)
+- [Summation of Floor Function Series](https://web.archive.org/web/20190720160446/http://mathforum.org/library/drmath/view/73120.html)
 - [Concrete Mathematics: A Foundation for Computer Science, 2nd Edition](http://www.informit.com/store/concrete-mathematics-a-foundation-for-computer-science-9780201558029), Chapter 3.5, Floor/Ceiling Sums.
