@@ -20,6 +20,7 @@ categories: String data structures
 - [Palindromic tree](http://adilet.org/blog/25-09-14/)
 - [Palindromic tree: behind the scenes](http://codeforces.com/blog/entry/13959)
 - [A bit more about palindromes](http://codeforces.com/blog/entry/19193)
+- [Eertree - an interactive guide](https://ufukhaciogullari.com/blog/eertree/)
 
 
 [^1]: <https://discuss.codechef.com/questions/33450/decorate-editorial>
