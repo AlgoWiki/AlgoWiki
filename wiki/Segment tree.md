@@ -163,6 +163,12 @@ subtlety in writing a lazy segment tree.
 
 - **Coordinate compression.** When indices are large but few are used, map them to
   $[0, n)$ first (see [coordinate compression](Coordinate compression)).
+- **Large or unbounded index ranges.** An [implicit segment tree](Implicit segment tree)
+  (a.k.a. dynamic/sparse) creates nodes only as they are touched, indexing ranges
+  up to $10^{18}$ without coordinate compression — and supports online queries.
+- **Hard range updates.** [Segment tree beats](Segment tree beats) handles updates
+  such as range $\min$/$\max$ ($a_i \leftarrow \min(a_i, x)$) that ordinary lazy
+  propagation cannot.
 - **[Persistence](#persistence).** Keeping every past version cheaply.
 - **Merge sort tree.** Storing a sorted list at each node answers questions like
   "how many values in $[l, r]$ are $\le x$"; see [merge sort tree](Merge sort tree).
@@ -212,6 +218,8 @@ becomes a prefix-sum query.
 - [Segment Trees](https://x.algo.is/despin)
 
 ## See also
+- [Implicit segment tree]() — dynamic/sparse, for huge index ranges
+- [Segment tree beats]() — range min/max updates that defy ordinary lazy propagation
 - [Persistent segment tree]()
 - [Merge sort tree]()
 - [Wavelet tree]()
