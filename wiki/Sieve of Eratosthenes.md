@@ -254,8 +254,9 @@ $[l, r]$ is then answered in $O(1)$ as the difference of two prefix sums.
 <summary>Solution sketch — Counting Coprime Pairs</summary>
 
 Let $c_d$ be how many array elements are divisible by $d$ (a sieve-style count).
-The number of coprime pairs is obtained by [Möbius inversion](Möbius inversion formula):
-$$\#\{(i,j): \gcd(a_i,a_j)=1\} = \sum_{d \ge 1} \mu(d)\binom{c_d}{2},$$
+By [Möbius inversion](Möbius inversion formula), the number of pairs $(i,j)$ with
+$\gcd(a_i,a_j)=1$ is
+$$\sum_{d \ge 1} \mu(d)\binom{c_d}{2},$$
 where $\mu$ comes from the multiplicative sieve. The whole solution is
 $O(A \log A)$ where $A$ is the maximum value.
 

@@ -59,13 +59,17 @@ Variants → Problems → See also → External links). Specifically:
 
 ## 5. Verify (do not skip)
 
-From inside `wiki/`:
+The live site is remark/GFM + client-side MathJax + Tailwind `prose`, **not**
+pandoc — see the rendering + math caveat in `AGENTS.md`. So:
 
-- **Render**: `pandoc -f markdown -t html "<Page>.md" >/tmp/out.html` must exit 0
-  with no warnings except `Could not convert TeX math …`. Then confirm:
-  - every `<details>` block is present in the HTML,
-  - empty-target wiki links survived (`href=""`),
-  - any internal `(#anchor)` links match a generated header `id="…"`.
+- **Structure**: `pandoc -f gfm -t html "<Page>.md" >/tmp/out.html` as a quick
+  linter. Confirm every `<details>` block is present, empty-target wiki links
+  survived (`href=""`), and any internal `(#anchor)` links match a generated
+  `id="…"`. Remember pandoc does **not** reveal math problems.
+- **Math**: scan every `$…$`/`$$…$$` for backslash-escaped ASCII punctuation
+  (`\#`, `\{`, `\}`, `\\`, `\_`, …), which remark strips before MathJax. Rephrase
+  to avoid them. For real confidence, preview in the website repo
+  (`gatsby develop`, this repo as its `content` submodule at your commit).
 - **Code**: extract every C++ snippet into one program, `g++ -O2 -std=c++17`, run
   it, and check outputs against known values (e.g. known counts, a worked example,
   spot-checked function values). Fix anything that doesn't match before shipping.
