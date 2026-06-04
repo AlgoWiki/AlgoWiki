@@ -55,7 +55,11 @@ number, which both saves space and improves cache behaviour. Note the cast to
 ### Complexity
 
 The work done is proportional to the number of crossing-out operations, which is
-$$\sum_{p \le n,\ p \text{ prime}} \frac{n}{p} = n \sum_{p \le n} \frac{1}{p} = n \log \log n + O(n),$$
+
+$$
+\sum_{p \le n,\ p \text{ prime}} \frac{n}{p} = n \sum_{p \le n} \frac{1}{p} = n \log \log n + O(n),
+$$
+
 by Mertens' theorem on the sum of reciprocals of primes. Hence the running time
 is $O(n \log \log n)$ — only marginally above linear. The memory usage is $O(n)$
 (one bit per number with a `bitset`).
@@ -256,7 +260,11 @@ $[l, r]$ is then answered in $O(1)$ as the difference of two prefix sums.
 Let $c_d$ be how many array elements are divisible by $d$ (a sieve-style count).
 By [Möbius inversion](Möbius inversion formula), the number of pairs $(i,j)$ with
 $\gcd(a_i,a_j)=1$ is
-$$\sum_{d \ge 1} \mu(d)\binom{c_d}{2},$$
+
+$$
+\sum_{d \ge 1} \mu(d)\binom{c_d}{2},
+$$
+
 where $\mu$ comes from the multiplicative sieve. The whole solution is
 $O(A \log A)$ where $A$ is the maximum value.
 

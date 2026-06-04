@@ -4,7 +4,11 @@ categories: Combinatorics
 
 Let $G$ be a finite group that acts on a set $X$. For each $g$ in $G$
 let $X^g$ denote the set of elements in $X$ that are fixed by $g$. Then
-the number of orbits $$|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.$$
+the number of orbits is
+
+$$
+|X/G| = \frac{1}{|G|} \sum_{g\in G} |X^g|.
+$$
 
 
 ## Problems

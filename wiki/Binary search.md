@@ -30,10 +30,14 @@ At completion, $\mathrm{res}$ will be the index of the leftmost element $a$ such
 ## Applications
 
 Say we want to find a specific element $x$ in a sorted array, or report that is not in the array. To do that, we define the property
-$$P(a) := \left\{\begin{array}{ll}
+
+$$
+P(a) := \left\{\begin{array}{ll}
 \mathrm{true} & \textrm{if } a \geq x \\
 \mathrm{false} & \textrm{otherwise}
-\end{array}\right.$$
+\end{array}\right.
+$$
+
 Since the array is sorted, we can see that the binary search property is fulfilled: there is an index $i$ such that for all $j \geq i$, $a_j \geq x$ is true, and for all $j < i$, $a_j \geq x$ is false. Thus, using binary search we can find the index of the first element that satisfies the property in logarithmic time. If this element is equal to $x$, then we're done, otherwise (and in the case that $\mathrm{res} = -1$) we can report that $x$ is not in the array.
 
 It is also very common to use binary search when finding the minimum or maximum solution, even if there is no explicit array involved. Consider the problem [The Monkey and the Oiled Bamboo](#problems). Notice that strength satisfies the binary search property: if we have a bigger strength factor than the minimum necessary, we will be able to reach the top, but if we have a smaller strength factor, then we won't be able to reach the top. Thus we can binary search $k$, doing $O(\log(n))$ simulations of jumping to the top to evaluate the predicate $P$ for different values of $k$.

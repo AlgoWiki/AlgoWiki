@@ -1,8 +1,15 @@
 ## Applicability
 Knuth's optimization applies when the dynamic programming recurrence is approximately of the form
-$$ \mathrm{dp}[i][j] = \min_{i<k<j} \left\{\mathrm{dp}[i][k] + \mathrm{dp}[k][j] \right\} + C[i][j], $$
+
+$$
+\mathrm{dp}[i][j] = \min_{i<k<j} \left\{\mathrm{dp}[i][k] + \mathrm{dp}[k][j] \right\} + C[i][j],
+$$
+
 where $A[i][j-1] \leq A[i][j] \leq A[i+1][j]$. Here $A[i][j]$ is the smallest index $i < k^\star < j$ that minimizes $\mathrm{dp}[i][k^\star] + \mathrm{dp}[k^\star][j]$, i.e.
-$$ A[i][j] = \mathrm{argmin}_{i<k<j} \left\{\mathrm{dp}[i][k] + \mathrm{dp}[k][j] \right\}. $$
+
+$$
+A[i][j] = \mathrm{argmin}_{i<k<j} \left\{\mathrm{dp}[i][k] + \mathrm{dp}[k][j] \right\}.
+$$
 
 A sufficient (but not necessary) condition for $A[i][j-1] \leq A[i][j] \leq A[i+1][j]$ to hold is that $C[a][c] + C[b][d] \leq C[a][d] + C[b][c]$ and $C[b][c] \leq C[a][d]$ where $a \leq b \leq c \leq d$.
 

@@ -9,13 +9,21 @@ Not to be confused with [convex hull](Convex hull), the **convex hull trick** is
 
 ## Applicability
 The convex hull trick applies when the dynamic programming recurrence is approximately of the form
-$$ \mathrm{dp}[i] = \min_{j<i} \left\{\mathrm{dp}[j] + b[j]\times a[i]\right\}. $$
+
+$$
+\mathrm{dp}[i] = \min_{j<i} \left\{\mathrm{dp}[j] + b[j]\times a[i]\right\}.
+$$
+
 where $b[j]\geq b[j+1]$ and $a[i] \leq a[i+1]$. The naive way of computing this recurrence with dynamic programming takes $O(n^2)$ time, but only takes $O(n)$ time with the convex hull trick. The restrictions on $a$ and $b$ can be dropped at the expense of a more complex and slightly slower approach.
 
 > TODO: Talk about dynamic vs. static variants
 
 Sometimes the above form appears within a more complex recurrence, as is the case for
-$$ \mathrm{dp}[k][i] = \min_{j<i} \left\{\mathrm{dp}[k-1][j] + b[j]\times a[i]\right\}. $$
+
+$$
+\mathrm{dp}[k][i] = \min_{j<i} \left\{\mathrm{dp}[k-1][j] + b[j]\times a[i]\right\}.
+$$
+
 The approach remains very similar, and in this case the convex hull trick brings the time complexity down to $O(kn)$ from $O(kn^2)$.
 This latter form can also be computed quickly using the [divide and conquer optimization](Divide and conquer optimization).
 

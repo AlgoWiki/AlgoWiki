@@ -5,24 +5,37 @@ categories: Geometry
 
 The *Minkowski sum* of two sets of position vectors $A$ and $B$ in Euclidean space is formed by adding each vector in $A$ to each vector in $B$, i.e., the set
 
-$$A + B = \{\mathbf{a}+\mathbf{b}\,|\,\mathbf{a}\in A,\ \mathbf{b}\in B\}.$$
+$$
+A + B = \{\mathbf{a}+\mathbf{b}\,|\,\mathbf{a}\in A,\ \mathbf{b}\in B\}.
+$$
 
 Analogously, the *Minkowski difference* is defined as
-$$A - B = \{\mathbf{a}-\mathbf{b}\,|\,\mathbf{a}\in A,\ \mathbf{b}\in B\}.$$
+
+$$
+A - B = \{\mathbf{a}-\mathbf{b}\,|\,\mathbf{a}\in A,\ \mathbf{b}\in B\}.
+$$
 
 
 ## Properties
 For Minkowski addition, the *zero set* ${0}$, containing only the zero vector $0$, is an identity element: For every subset $S$, of a vector space
-$$S + {0} = S;$$
+
+$$
+S + {0} = S;
+$$
 
 The empty set is important in Minkowski addition, because the empty set annihilates every other subset: for every subset, $S$, of a vector space, its sum with the empty set is empty: $S + \emptyset = \emptyset$.
 
-Minkowski addition behaves well with respect to the operation of taking [convex hulls](Convex hull), as shown by the following proposition:
+Minkowski addition behaves well with respect to the operation of taking [convex hulls](Convex hull), as shown by the following proposition. For all non-empty subsets $S_1$ and $S_2$ of a real vector-space, the convex hull of their Minkowski sum is the Minkowski sum of their convex hulls,
 
-- For all non-empty subsets $S_1$ and $S_2$ of a real vector-space, the convex hull of their Minkowski sum is the Minkowski sum of their convex hulls $$\mathrm{Conv}(S_1 + S_2) = \mathrm{Conv}(S_1) + \mathrm{Conv}(S_2).$$
+$$
+\mathrm{Conv}(S_1 + S_2) = \mathrm{Conv}(S_1) + \mathrm{Conv}(S_2).
+$$
 
 This result holds more generally for each finite collection of non-empty sets
-$$\mathrm{Conv}(\Sigma S_n) = \Sigma \mathrm{Conv}(S_n).$$
+
+$$
+\mathrm{Conv}(\Sigma S_n) = \Sigma \mathrm{Conv}(S_n).
+$$
 
 If $S$ is a convex set then also $\mu S+\lambda S$ is a convex set; furthermore
 $\mu S+\lambda S=(\mu+\lambda)S$ for every $\mu,\lambda \geq 0$.

@@ -1,8 +1,15 @@
 ## Applicability
 The divide and conquer optimization applies when the dynamic programming recurrence is approximately of the form
-$$ \mathrm{dp}[k][i] = \min_{j<i} \left\{\mathrm{dp}[k-1][j] + C[i][j] \right\}, $$
+
+$$
+\mathrm{dp}[k][i] = \min_{j<i} \left\{\mathrm{dp}[k-1][j] + C[i][j] \right\},
+$$
+
 where $A[k][i] \leq A[k][i+1]$. Here $A[k][i]$ is the smallest index $j^\star < i$ that minimizes $\mathrm{dp}[k-1][j^\star] + C[i][j^\star]$, i.e.
-$$ A[k][i] = \mathrm{argmin}_{j<i} \left\{\mathrm{dp}[k-1][j] + C[i][j] \right\}. $$
+
+$$
+A[k][i] = \mathrm{argmin}_{j<i} \left\{\mathrm{dp}[k-1][j] + C[i][j] \right\}.
+$$
 
 A sufficient (but not necessary) condition for $A[k][i] \leq A[k][i+1]$ to hold is that $C[a][c] + C[b][d] \leq C[a][d] + C[b][c]$ where $a < b < c < d$.
 
