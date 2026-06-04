@@ -21,3 +21,4 @@ categories: Graph algorithms, Graph theory, Combinatorial optimization
 ## See also
 - [Minimum cut]()
 - [Minimum cost maximum flow]()
+- [Gomory-Hu tree]() — all-pairs minimum cuts via n−1 max-flow runs

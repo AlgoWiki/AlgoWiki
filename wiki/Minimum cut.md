@@ -7,6 +7,7 @@ categories: Graph algorithms, Graph theory, Combinatorial optimization
 
 ## See also
 - [Maximum flow]()
+- [Gomory-Hu tree]() — all-pairs minimum cuts in one tree
 - [Maximum density subgraph]()
 - [Closure problem]()
 - [Image segmentation]()
