@@ -9,9 +9,10 @@ The live site at <https://wiki.algo.is> is a **[Gatsby](https://www.gatsbyjs.com
 static site** (separate repo, this repo is included as a git submodule). It
 renders pages with `gatsby-transformer-remark` — i.e. **remark / GitHub Flavored
 Markdown**, *not* pandoc — plus a custom `gatsby-remark-wiki-link` plugin for
-`[Page]()` links, **client-side [MathJax](https://www.mathjax.org)** for `$…$`,
-and **Tailwind Typography** (`prose`) for styling. Knowing this matters: see the
-math caveat below and the verification notes at the end.
+`[Page]()` links, **build-time [KaTeX](https://katex.org)** (via
+`gatsby-remark-katex` / `remark-math`) for `$…$` and `$$…$$`, and **Tailwind
+Typography** (`prose`) for styling. Knowing this matters: see the math rules
+below and the verification notes at the end.
 
 Most pages today are sparse stubs — often just a list of problems. The goal is to
 flesh them out into complete, self-contained articles. Do **not** match the thin
@@ -32,17 +33,27 @@ existing style; aim for the quality bar described below.
   Name)` for custom text, and `[label](Page Name#anchor)` to target a section.
   Linking to a page that does not exist yet is fine and encouraged. Link
   liberally; cross-references are a core value of the wiki.
-- **Math** is `$inline$` and `$$display$$`, rendered client-side by MathJax.
-  **Caveat (important):** there is currently no remark math plugin, so remark
-  treats `$…$` as ordinary text and applies Markdown's backslash-escaping *before*
-  MathJax runs. That silently strips the backslash from any escaped ASCII
-  punctuation — `\#`, `\{`, `\}`, `\%`, `\_`, `\&`, and `\\` (turned into a single
-  `\`). So `$\#\{x\}$` reaches MathJax as `$#{x}$` and breaks. **Avoid those in
-  math:** prefer plain `{`/`}` for grouping, rephrase to drop `\#`/`\{ \}`
-  set-builder notation, and avoid `\\` line breaks inside `array`/`cases`.
-  Sequences like `\log`, `\sum`, `\frac`, `\binom`, `a_i`, `x^2` are safe (the
-  char after `\` is not punctuation). The clean long-term fix is to add a remark
-  math plugin to the site; until then, author math defensively.
+- **Math** is rendered at build time by KaTeX, via `remark-math`. Because
+  `remark-math` parses `$…$`/`$$…$$` into math *before* Markdown escaping runs,
+  backslash sequences like `\{`, `\}`, `\\`, `\#` are now safe inside math (this
+  used to be broken under the old MathJax setup — don't reintroduce workarounds).
+  Two rules:
+    - **Inline math:** `$ … $`. Works anywhere in text.
+    - **Display math:** the `$$` fences **must each be alone on their own line,
+      with a blank line before and after** — only this form renders as centered
+      display math:
+      ```
+
+      $$
+      \sum_{i=1}^n i = \frac{n(n+1)}{2}
+      $$
+
+      ```
+      A single-line `$$ … $$`, or `$$` with content on the fence line, renders as
+      *inline* math (or breaks the paragraph), so always use the block form above.
+  KaTeX is stricter than MathJax (no `\mbox` quirks etc.); the build runs with
+  `throwOnError:false`, so a bad formula shows in red rather than failing the
+  build — grep the built HTML for `katex-error` to catch these.
 - **Code** goes in fenced blocks tagged with the language, e.g. `~~~ {.cpp}`.
   C++ is the house language; assume `#include <bits/stdc++.h>` and `using
   namespace std;`.
@@ -92,15 +103,13 @@ topic needs):
 
 - **Structure (quick local check)**: `pandoc -f gfm -t html "<Page>.md" >/dev/null`
   is a handy sanity check for headings, lists, fenced code, and `<details>`
-  blocks. **But pandoc is _not_ the live renderer and does _not_ reproduce the
-  math caveat above** — pandoc parses `$…$` as math and keeps the backslashes,
-  whereas the live remark/GFM build strips them. So a page can look fine in pandoc
-  and still render broken math on the site. Treat pandoc as a structure linter
-  only.
-- **Math**: eyeball every `$…$`/`$$…$$` for the risky escapes listed in the math
-  caveat (`\#`, `\{`, `\}`, `\\`, …). The authoritative check is to build/preview
-  the actual site (`gatsby develop` in the website repo, with this repo checked
-  out as its `content` submodule at your commit) and look at the rendered math.
+  blocks. It is *not* the live renderer (pandoc handles math differently), so use
+  it only as a structure linter.
+- **Math**: confirm every display formula uses the blank-line `$$`-on-own-lines
+  block form. The authoritative check is to build the actual site: in the website
+  repo, point its `content` submodule at your commit, run `gatsby build` (or
+  `gatsby develop`), and grep the built HTML — `katex-error` must be **0**, and
+  display formulas should appear as `math-display` divs.
 - **Code**: compile every snippet (`g++ -O2 -std=c++17`) and sanity-check its
   output against known values. Don't ship code you haven't run.
 

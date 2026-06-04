@@ -59,17 +59,18 @@ Variants → Problems → See also → External links). Specifically:
 
 ## 5. Verify (do not skip)
 
-The live site is remark/GFM + client-side MathJax + Tailwind `prose`, **not**
-pandoc — see the rendering + math caveat in `AGENTS.md`. So:
+The live site is remark/GFM + build-time KaTeX + Tailwind `prose`, **not**
+pandoc — see the rendering + math rules in `AGENTS.md`. So:
 
 - **Structure**: `pandoc -f gfm -t html "<Page>.md" >/tmp/out.html` as a quick
   linter. Confirm every `<details>` block is present, empty-target wiki links
   survived (`href=""`), and any internal `(#anchor)` links match a generated
-  `id="…"`. Remember pandoc does **not** reveal math problems.
-- **Math**: scan every `$…$`/`$$…$$` for backslash-escaped ASCII punctuation
-  (`\#`, `\{`, `\}`, `\\`, `\_`, …), which remark strips before MathJax. Rephrase
-  to avoid them. For real confidence, preview in the website repo
-  (`gatsby develop`, this repo as its `content` submodule at your commit).
+  `id="…"`. Remember pandoc is not the live renderer.
+- **Math**: ensure every display formula uses the blank-line `$$`-on-own-lines
+  block form (a single-line `$$…$$` renders inline). The authoritative check is to
+  build the website repo (point its `content` submodule at your commit, run
+  `gatsby build`) and grep the built HTML: `katex-error` must be 0 and display
+  formulas should be `math-display` divs.
 - **Code**: extract every C++ snippet into one program, `g++ -O2 -std=c++17`, run
   it, and check outputs against known values (e.g. known counts, a worked example,
   spot-checked function values). Fix anything that doesn't match before shipping.
