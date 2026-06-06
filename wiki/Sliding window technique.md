@@ -2,41 +2,47 @@
 categories: Algorithm techniques
 ---
 
-The **sliding window technique** maintains a contiguous range of an array or
-string while its endpoints move only forward. It is the subarray version of
-[Two pointers](): by updating the data kept for the current window when an
-element enters or leaves, many brute-force $O(n^2)$ searches over all subarrays
-become $O(n)$, or $O(n \log n)$ when the window needs an ordered
-[data structure](Data structures).
+Imagine you want to find the longest contiguous subarray of an array whose sum
+is at most some limit $S$. The brute-force approach tries every pair of
+endpoints — $O(n^2)$ pairs — and recomputes the sum each time, for a total of
+$O(n^3)$ or $O(n^2)$ work. The **sliding window technique** cuts this to $O(n)$
+by keeping track of a "window" $[l, r]$ and moving its two endpoints forward
+only, never backward. When you slide the right end in, one new element enters
+the window; when you slide the left end out, one element leaves. Because each
+element enters and leaves at most once, the total work is linear.
 
-The technique is useful when the answer depends on a contiguous segment and the
-condition can be maintained incrementally: sums of non-negative numbers,
-distinct elements, character counts, minimums, maximums, medians, and similar
-quantities.
+The technique applies whenever the answer depends on a contiguous segment of the
+input and you can update whatever you track about that segment cheaply as it
+grows or shrinks from one end. Common examples: sum, distinct element count,
+character frequencies, minimum, maximum, and median.
 
 ## Description
 
-A window is an interval $[l, r]$ of indices, usually represented by two
-inclusive endpoints or by a half-open interval $[l, r)$. The implementation
-keeps a small state describing the elements currently inside the window. When
-the right endpoint moves, one element is added to the state; when the left
-endpoint moves, one element is removed.
+Think of the window as a view that slides across the array from left to right.
+At any moment it covers the range of indices from `l` (inclusive) to `r`
+(inclusive). You maintain some state — a running sum, a frequency map, a
+monotone deque — that describes exactly the elements inside `[l, r]`. As `r`
+advances, a new element enters from the right; as `l` advances, an element
+leaves from the left.
 
-The central invariant is:
-
-- `add(i)` updates the state to include `a[i]`.
-- `remove(i)` updates the state to exclude `a[i]`.
-- `valid()` answers whether the current window satisfies the constraint.
-- Both endpoints only increase.
-
-Because each index is added at most once and removed at most once, the total
-number of state updates is linear.
+The reason this is efficient is simple: each index is added to the window
+exactly once and removed at most once, so the total number of state updates
+across the entire pass is at most $2n$.
 
 ### Variable-size windows
 
-The most common form grows the right endpoint and then shrinks the left endpoint
-until the invariant is restored. For example, suppose all values are
-non-negative and we want the longest subarray with sum at most `S`.
+The most common pattern lets the window grow until it breaks a constraint, then
+shrinks from the left until the constraint is restored:
+
+1. Advance `r` and add `a[r]` to the state.
+2. While the window is invalid, advance `l` and remove `a[l]` from the state.
+3. Now `[l, r]` is the longest valid window ending at `r`. Record it.
+
+This works when the constraint is **monotone**: making the window larger can
+only make it harder to satisfy, and making it smaller can only help. For
+example, if all values are non-negative, the window sum only goes up as `r`
+increases, and only goes down as `l` increases — so the shrinking step always
+eventually restores validity.
 
 ~~~ {.cpp}
 int longest_sum_at_most(const vector<int>& a, long long S) {
@@ -57,17 +63,18 @@ int longest_sum_at_most(const vector<int>& a, long long S) {
 }
 ~~~
 
-This works because the array values are non-negative: adding more elements can
-only increase the sum, and removing elements from the left can only decrease it.
-If negative values are allowed, the monotonicity disappears and a different tool
-is usually needed, such as [Prefix sums](), a [balanced binary search tree](), or
-[dynamic programming](Dynamic programming).
+If the values can be negative, the sum no longer behaves monotonically —
+shrinking the window might increase the sum — and a different tool is needed,
+such as [Prefix sums]() or [Dynamic programming]().
 
-Counting all valid subarrays uses the same invariant. After the left endpoint
-has been advanced until $[l, r]$ is valid, every suffix ending at `r` and
-starting at an index in `[l, r]` is also valid for monotone constraints such as
-"sum at most `S`" or "at most `K` distinct values". Therefore this step
-contributes `r - l + 1` subarrays.
+**Counting instead of maximizing.** Sometimes you want to count every valid
+subarray, not just the longest. Once the left endpoint has been pushed to the
+rightmost valid position for a given `r`, every starting point in `[l, r]` also
+gives a valid subarray ending at `r`. So instead of recording the length, add
+`r - l + 1` to the answer.
+
+Here is that idea applied to counting subarrays with at most `K` distinct
+values:
 
 ~~~ {.cpp}
 long long count_at_most_k_distinct(const vector<int>& a, int K) {
@@ -92,14 +99,13 @@ long long count_at_most_k_distinct(const vector<int>& a, int K) {
 }
 ~~~
 
-An "exactly `K`" distinct-elements count is often computed as
-`at_most(K) - at_most(K - 1)`.
+An "exactly `K` distinct values" count follows from `at_most(K) - at_most(K - 1)`.
 
 ### Fixed-size windows
 
-When the length is fixed, the left endpoint is determined by the right endpoint.
-There is no inner `while` loop: add the new element, remove the element that just
-fell out, and record the answer once the first full window is present.
+When the window length is fixed at `k`, the left endpoint is always `r - k + 1`,
+so there is no shrinking loop — just add the incoming element on the right and
+remove the outgoing element on the left:
 
 ~~~ {.cpp}
 vector<long long> fixed_window_sums(const vector<int>& a, int k) {
@@ -115,19 +121,23 @@ vector<long long> fixed_window_sums(const vector<int>& a, int k) {
 }
 ~~~
 
-Fixed windows are also the right model for stream-like tasks: after processing
-position `r`, the maintained state describes the last `k` elements.
+Fixed windows also model streaming problems: after processing index `r`, the
+state represents the last `k` elements seen.
 
 ### Sliding minimum and maximum
 
-For every fixed window minimum or maximum, recomputing the aggregate from
-scratch costs $O(nk)$. A monotone [deque]() gives $O(n)$ time by storing only
-candidate indices.
+Finding the minimum (or maximum) of every window of size `k` seems to require
+$O(k)$ work per window, giving $O(nk)$ total. A **monotone deque** reduces this
+to $O(n)$ by keeping only the indices that could still be the minimum of some
+future window.
 
-For window minimums, keep indices in increasing order of value. Before inserting
-`r`, remove larger or equal values from the back: they can never become the
-minimum while `a[r]` is still in the window. Remove indices that have fallen out
-from the front. The front is then the minimum of the current window.
+The key observation: if `a[j] >= a[r]` and `j < r`, then `a[j]` can never be
+the minimum of any window that contains `a[r]`, because `a[r]` is at least as
+small and will outlast `a[j]` in the window. So we can discard `a[j]`
+immediately when `a[r]` arrives.
+
+The deque therefore stores indices in order, with values increasing from front
+to back. The front is always the minimum of the current window.
 
 ~~~ {.cpp}
 vector<int> sliding_minimum(const vector<int>& a, int k) {
@@ -145,52 +155,59 @@ vector<int> sliding_minimum(const vector<int>& a, int k) {
 }
 ~~~
 
-For maximums, reverse the comparison. This same idea appears inside optimizations
-for [dynamic programming](Dynamic programming), where a transition asks for the
-best value over a moving range.
+For maximums, flip the comparison to `<=`. The same deque idea appears in
+[dynamic programming](Dynamic programming) optimizations where a transition
+needs the best value over a range of previous states.
 
 ### Complexity
 
-If `add`, `remove`, and `valid` are $O(1)$, a sliding-window algorithm is
-$O(n)$ time and $O(s)$ memory, where $s$ is the size of the maintained state
-(for example, the number of distinct values in the current window). With an
-ordered set, two multisets, or a [Fenwick tree](), each update is usually
-$O(\log n)$, so the total time becomes $O(n \log n)$.
+Each element is added to the window once and removed at most once, so:
+
+- If each add and remove operation costs $O(1)$ (a running sum, a counter, a
+  deque), the total time is $O(n)$.
+- If each update costs $O(\log n)$ (an ordered set, a [Fenwick tree](), two
+  multisets), the total time is $O(n \log n)$.
+- Memory is $O(s)$ where $s$ is the size of the state, for example the number
+  of distinct values currently in the window.
 
 ## Applications
 
-- **Longest or shortest subarray under a monotone constraint.** Examples include
-  "sum at most `S`" for non-negative arrays, "at most `K` distinct values", and
-  "no repeated characters".
-- **Counting subarrays.** Once a window ending at `r` is valid, all valid starts
-  can often be counted in one step instead of enumerated.
-- **Streaming statistics over the last `k` elements.** Sums, xor, frequency
-  counts, minimums, maximums, medians, modes, and mex values are all fixed-window
-  variants.
-- **String matching and frequency constraints.** Maintain counts of characters
-  in a substring and compare them with a target multiset, often together with
-  [Hashing]() for faster equality checks.
-- **Range-limited dynamic programming.** A monotone queue turns transitions of
-  the form "minimum over the last `k` states" from $O(nk)$ into $O(n)$.
+- **Longest or shortest subarray under a constraint.** Any monotone constraint
+  ("sum ≤ S for non-negative values", "at most K distinct elements", "no
+  repeated characters") can be handled with a variable-size window.
+- **Counting valid subarrays.** Once the window is maximally shrunk for a given
+  right endpoint, all starting points from `l` to `r` yield valid subarrays,
+  so you can count them in $O(1)$ rather than enumerating them.
+- **Running statistics over the last `k` elements.** Sums, XOR, frequencies,
+  minimums, maximums, medians, and modes are all computable with a fixed-size
+  window and the right supporting structure.
+- **String matching and anagram detection.** Keep a character-frequency array
+  for the current window and compare it to the target's frequencies. Two arrays
+  of 26 entries can be compared in $O(1)$ by maintaining a count of matching
+  positions.
+- **DP transitions over a bounded range.** When a recurrence looks up the best
+  of the previous $k$ states, a monotone deque turns the $O(k)$ lookup per
+  state into $O(1)$.
 
 ## Variants
 
-### Two pointers versus sliding window
+### Two pointers vs. sliding window
 
-Sliding window is a special case of [Two pointers]() where the two pointers
-bound a contiguous range and usually move in the same direction. Opposite-end
-two-pointer algorithms, such as searching for a pair with a target sum in a
-sorted array, are related but do not maintain a moving subarray.
+Sliding window is a specialization of [Two pointers]() where both pointers
+move in the same direction and bound a contiguous range. Two-pointer problems
+where the pointers start at opposite ends of the array (for example, finding a
+pair that sums to a target in a sorted array) are related, but they do not
+maintain a moving subarray and are not usually called sliding windows.
 
-The name matters less than the invariant: if the solution has a left boundary, a
-right boundary, a state for the current segment, and both boundaries move only
-forward, it is a sliding-window solution.
+If your solution has a left index, a right index, a state for everything between
+them, and both indices only ever increase, it is a sliding-window solution.
 
-### Last occurrence instead of shrinking one step at a time
+### Jumping the left endpoint directly
 
-For uniqueness constraints, it is often cleaner to jump the left endpoint over
-the previous occurrence of a duplicate. This avoids removing elements one by one
-when the only state needed is the most recent position.
+For uniqueness constraints, tracking the most recent position of each element
+lets you jump `l` in one step instead of advancing it one position at a time.
+This is useful when the only reason to move `l` forward is that a duplicate
+appeared:
 
 ~~~ {.cpp}
 int longest_all_distinct(const vector<int>& a) {
@@ -207,39 +224,46 @@ int longest_all_distinct(const vector<int>& a) {
 }
 ~~~
 
-The `max` is important: an old occurrence before the current window must not
-move `l` backwards.
+The `max` guard is important: if an earlier duplicate occurred before the
+current window, its stored position must not push `l` backward.
 
 ### Ordered windows
 
-Some fixed-window statistics cannot be updated with a single counter or deque.
-For example, medians and costs to make all values equal need order statistics.
-A standard solution keeps the lower half of the window in one multiset and the
-upper half in another; the largest element of the lower half is the median.
-Rebalancing after every insertion and deletion gives $O(\log k)$ per step.
+Some statistics cannot be maintained with a simple counter or a deque. Medians
+and the minimum total cost to make all window elements equal both require
+knowing the order of elements inside the window.
 
-For counts of values in a small or compressed domain, a [Fenwick tree]() or
-[Segment tree]() can store frequencies and find the $k$-th element
-by binary lifting. This is often faster than multisets after
+A classic approach keeps the lower half of the window in a `multiset` (or
+max-heap) and the upper half in another `multiset` (or min-heap), and rebalances
+after each insertion and deletion. The boundary between the two halves is the
+median. Each slide operation is $O(\log k)$.
+
+For problems over a compressed or small domain, a [Fenwick tree]() or
+[Segment tree]() storing frequencies can answer "$k$-th smallest" queries by
+binary search, often faster in practice than multisets after
 [Coordinate compression]().
 
 ### Non-invertible operations
 
-A simple window sum works because removing `a[l]` is easy. Some operations, such
-as minimum, maximum, gcd, bitwise or, or bitwise and, do not have a direct
-inverse. Common approaches are:
+A window sum is easy to update because subtraction is the inverse of addition.
+But some aggregates — minimum, maximum, GCD, bitwise OR, bitwise AND — have no
+inverse. You cannot un-apply them when an element leaves the window. Options:
 
-- Use a monotone deque for minimum or maximum.
-- Keep bit counts for bitwise or or and over integer values.
-- Use two stacks with aggregate values for a queue that supports amortized
-  $O(1)$ aggregate queries.
-- Use a [Segment tree]() or sparse table when the endpoints are not
-  both moving forward.
+- **Monotone deque** for minimum or maximum (see above).
+- **Bit counts** for bitwise OR and AND over integer values: maintain a count
+  of how many window elements have each bit set; OR is nonzero iff the count
+  is nonzero, AND is set iff the count equals the window size.
+- **Two-stacks queue** for any associative aggregate with $O(1)$ amortized
+  cost per operation (described below).
+- **[Segment tree]()** for arbitrary aggregates, or when the window endpoints
+  are not both moving monotonically forward.
 
-The **two-stacks queue** works for any associative aggregate. Each stack stores
-pairs $(value, running\_aggregate)$. The back stack accumulates new elements; the
-front stack is reversed on demand. Because every element crosses the boundary at
-most once, the amortized cost per operation is $O(1)$.
+The **two-stacks queue** idea: split the conceptual queue into two stacks. New
+elements are pushed onto the back stack; each stack also stores the running
+aggregate of its elements. When the front stack is empty and a pop is needed,
+reverse the back stack into the front stack — each element then carries the
+aggregate of everything at or above it. Because every element crosses the
+boundary at most once, the amortized cost per push/pop/query is $O(1)$.
 
 ~~~ {.cpp}
 template<typename T>
@@ -272,10 +296,8 @@ struct MinQueue {
 };
 ~~~
 
-Using `MinQueue`, a fixed-window minimum is a single push per step, a single pop
-per step once the window is full, and a query for the answer — no monotone deque
-is needed. Replace `min` with `max`, `gcd`, `|`, or `&` to handle other
-non-invertible aggregates.
+Replace `min` with `max`, `gcd`, `|`, or `&` to handle other non-invertible
+aggregates.
 
 ### DP transitions over a sliding range
 
@@ -286,9 +308,16 @@ dp[i] = \min_{j \in [i-k,\, i-1]} dp[j] + \text{cost}(i)
 $$
 
 appear in problems like minimum-cost jumping, shortest paths on a DAG with
-bounded edge lengths, and various knapsack variants. A monotone deque reduces
-each transition from $O(k)$ to $O(1)$ by maintaining candidate indices in
-increasing order of $dp$ value and evicting indices that have left the window.
+bounded edge lengths, and various knapsack variants. A naive implementation
+scans all $k$ predecessors for each $i$, giving $O(nk)$ total. A monotone
+deque reduces this to $O(n)$.
+
+The deque stores candidate predecessor indices in increasing order of their
+$dp$ value. When computing $dp[i]$:
+1. Remove indices from the front that are now outside the window ($< i - k$).
+2. The front holds the index with the smallest $dp$ value — use it.
+3. Remove indices from the back with $dp$ value $\geq dp[i]$ (they will never
+   be chosen over $i$ by any future state), then push $i$.
 
 ~~~ {.cpp}
 // dp[i] = min cost to reach position i; can jump from any j in [i-k, i-1]
@@ -309,11 +338,6 @@ long long min_cost_jump(const vector<int>& cost, int k) {
 }
 ~~~
 
-The key insight is that once `dp[i]` is computed, any future index `i' > i` will
-always prefer `dp[i]` over `dp[j]` for any `j < i` with `dp[j] >= dp[i]`, so
-such `j` can be discarded immediately. This is the same monotone invariant as in
-the sliding minimum, applied to DP values instead of array values.
-
 ## Problems
 
 ### Basic variable windows
@@ -328,23 +352,24 @@ the sliding minimum, applied to DP values instead of array values.
   longest contiguous package with no repeated snowflake id.
 
 <details>
-<summary>Solution sketch - Books</summary>
+<summary>Solution sketch — Books</summary>
 
-All reading times are positive, so the window sum is monotone with respect to
-the right endpoint. Add books while scanning `r`; whenever the sum exceeds `t`,
-remove books from the left until it fits again. After the shrinking step,
-`r - l + 1` is the best segment ending at `r`, and the maximum over all `r` is
-the answer.
+All reading times are positive, so the window sum only grows as `r` advances.
+Scan `r` left to right, adding each book to the sum. Whenever the sum exceeds
+`t`, remove books from the left until it fits again. After that shrinking step,
+`r - l + 1` is the longest valid window ending at `r`, and the answer is the
+maximum over all `r`.
 
 </details>
 
 <details>
-<summary>Solution sketch - Unique Snowflakes</summary>
+<summary>Solution sketch — Unique Snowflakes</summary>
 
-Maintain a window with no duplicate snowflake ids. Either keep a frequency map
-and shrink while the new id has frequency greater than one, or store each id's
-last position and jump `l` to one past that position. The maximum window length
-seen during the scan is the answer.
+Keep a frequency map of snowflake ids in the current window. When `a[r]`
+appears for the second time, advance `l` until it is gone. Alternatively, store
+each id's most recent index and jump `l` directly to one past that position —
+no need to remove elements one by one. The answer is the maximum window length
+seen.
 
 </details>
 
@@ -356,12 +381,11 @@ seen during the scan is the answer.
   report the number of distinct values in every fixed-size window.
 
 <details>
-<summary>Solution sketch - Distinct Values Subarrays II</summary>
+<summary>Solution sketch — Distinct Values Subarrays II</summary>
 
-Use a frequency map and keep the current window at most `k` distinct values.
-After adding `a[r]`, shrink `l` until the condition holds. Then every subarray
-ending at `r` and starting at one of `l, l+1, ..., r` is valid, so add
-`r - l + 1` to the answer.
+Use a frequency map. For each `r`, shrink `l` until the window has at most `k`
+distinct values. Every starting index in `[l, r]` then gives a valid subarray
+ending at `r`, so add `r - l + 1` to the answer.
 
 </details>
 
@@ -378,23 +402,23 @@ ending at `r` and starting at one of `l, l+1, ..., r` is valid, so add
   the smallest most-frequent value in each fixed-size window.
 
 <details>
-<summary>Solution sketch - Sliding Window Minimum</summary>
+<summary>Solution sketch — Sliding Window Minimum</summary>
 
-Keep a deque of candidate indices whose values are increasing. Before pushing a
-new index, pop all candidates with value at least the new value; they are worse
-and expire no later. Pop expired indices from the front. Once the first full
-window exists, the value at the front is the minimum.
+Use the monotone deque described above. For each new index `r`, pop all
+candidates from the back with value ≥ `a[r]` (they are dominated), then push
+`r`. Pop expired candidates (index ≤ `r - k`) from the front. The front holds
+the minimum.
 
 </details>
 
 <details>
-<summary>Solution sketch - Sliding Window Cost</summary>
+<summary>Solution sketch — Sliding Window Cost</summary>
 
-For a fixed window, the optimal target value is a median. Keep the lower half
-and upper half in two multisets, together with their sums. Rebalance so the
-lower half contains the median. The cost is
-`median * lower_size - lower_sum + upper_sum - median * upper_size`; update the
-two multisets when the window slides.
+The cheapest target to move all window elements toward is the median. Keep the
+lower half in a `multiset` (largest element = median) and the upper half in
+another `multiset`. Maintain the sum of each half. After each slide, rebalance
+the two halves so they differ in size by at most one. The cost is then
+`median * lower_size - lower_sum + upper_sum - median * upper_size`.
 
 </details>
 
@@ -421,10 +445,10 @@ $$
 dp[i] = \sum_{j=1}^{6} dp[i - j]
 $$
 
-This is a sum of a fixed-size window of width 6 in the DP array. Maintain a
+This is the sum of a fixed window of width 6 in the DP array. Maintain a
 running sum of `dp[i-1]` through `dp[i-6]`, adding `dp[i]` and subtracting
-`dp[i-7]` at each step. Total time $O(n)$, no deque required since the
-operation is invertible.
+`dp[i-7]` at each step. Total time $O(n)$, no deque required since addition is
+invertible.
 
 </details>
 
@@ -437,26 +461,23 @@ $$
 dp[i] = \min_{j \in [\max(0,\, i-k),\, i-1]} dp[j] + |h[i] - h[j]|
 $$
 
-When the cost term depends on $j$, the deque template no longer directly applies
-because the objective is not separable. Instead, split the absolute value into
-two cases (when $h[j] \le h[i]$ and when $h[j] > h[i]$) and handle each with a
-separate deque tracking $dp[j] - h[j]$ and $dp[j] + h[j]$ respectively. For the
-simpler variant where the jump cost is just $dp[j]$ (a fixed cost per step),
-the standard monotone deque suffices.
+When the cost depends on $j$ (here through $|h[i] - h[j]|$), the standard
+deque template does not directly apply because the objective is not separable.
+One approach: split on whether $h[j] \le h[i]$ or $h[j] > h[i]$ and use a
+separate deque tracking $dp[j] - h[j]$ or $dp[j] + h[j]$ for each case. For
+simpler variants where the cost is independent of $j$, the standard monotone
+deque suffices directly.
 
 </details>
 
 ## See also
 
-- [Two pointers]() - the broader endpoint-moving technique.
-- [Prefix sums]() - often replaces sliding windows when values can be negative.
-- [Deque]() - the standard structure for monotone minimum and maximum queues.
-- [Segment tree]() - handles window statistics when endpoints are not monotone or
-  when richer range queries are needed.
-- [Coordinate compression]() - useful before maintaining window frequencies in a
-  Fenwick tree or segment tree.
-- [Mo's algorithm]() - reorders offline range queries so endpoints move slowly
-  instead of only forward.
+- [Two pointers]() — the broader endpoint-moving technique; sliding window is a special case.
+- [Prefix sums]() — useful when values can be negative and a window shrink might increase the sum.
+- [Deque]() — the standard data structure behind monotone minimum and maximum queues.
+- [Segment tree]() — handles window statistics when endpoints are not monotone or when richer range queries are needed.
+- [Coordinate compression]() — useful before maintaining window frequencies in a Fenwick tree or segment tree.
+- [Mo's algorithm]() — reorders offline range queries so endpoints move slowly instead of only forward.
 
 ## External links
 
