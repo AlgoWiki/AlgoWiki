@@ -30,12 +30,12 @@ This latter form can also be computed quickly using the [divide and conquer opti
 ## Problems
 - [Commando](http://www.spoj.com/problems/APIO10A/)
 - [Land Acquisition](http://tjsct.wikidot.com/usaco-mar08-gold)
-- [Batch Scheduling](http://wcipeg.com/problem/ioi0221)
+- [Batch Scheduling](https://web.archive.org/web/20210126131438/https://wcipeg.com/problem/ioi0221)
 - [Covered Walkway](https://open.kattis.com/problems/coveredwalkway)
 - [Branch Assignment](https://open.kattis.com/problems/branch)
 - [Good Inflation](http://www.spoj.com/problems/GOODG/)
 - [Cats Transport](http://codeforces.com/problemset/problem/311/B) [^1]
-- [Cow School](http://poj.org/problem?id=3266) [^2]
+- [Cow School](http://web.archive.org/web/20250517000755/http://poj.org/problem?id=3266) [^2]
 - [Kalila and Dimna in the Logging Industry](http://codeforces.com/contest/319/problem/C) [^3]
 - [Leaves](http://www.spoj.com/problems/NKLEAVES/)
 - [Squared Ends](https://csacademy.com/contest/round-70/task/squared-ends/)
@@ -44,9 +44,9 @@ This latter form can also be computed quickly using the [divide and conquer opti
 - [Dynamic programming optimization]()
 
 ## External links
-- [Convex hull trick](http://wcipeg.com/wiki/Convex_hull_trick)
+- [Convex hull trick](https://web.archive.org/web/20210307221008/http://wcipeg.com/wiki/Convex_hull_trick)
 - [Effective Usage of C++ STL for quick and concise code writing in competitive programming](http://codeforces.com/blog/entry/11155#comment-162462)
-- [Advanced dynamic programming techniques](https://apps.topcoder.com/forums/?module=Thread&threadID=608334&start=0&mc=14#1120736)
+- [Advanced dynamic programming techniques](https://web.archive.org/web/20190827092347/http://apps.topcoder.com/forums/?module=Thread&threadID=608334&start=0&mc=14)
 
 
 [^1]: <http://codeforces.com/blog/entry/7785>

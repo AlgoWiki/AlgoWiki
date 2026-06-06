@@ -42,7 +42,7 @@ $$
 - [Knapsack in a Globalized World](http://gcpc.nwerc.eu/problemset_2016.pdf)
 - [Linear Combinations of Semiprimes](https://projecteuler.net/problem=278)
 - [Sums](http://main.edu.pl/en/archive/oi/10/sum)
-- [LongLongTripDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=13090) [^3]
+- [LongLongTripDiv1](http://web.archive.org/web/20221014060620/https://community.topcoder.com/stat?c=problem_statement&pm=13090) [^3]
 
 ## See also
 - [Bézout's identity](Bézout's identity)
@@ -54,5 +54,5 @@ $$
 
 [^1]: <http://gcpc.nwerc.eu/outlines_2016.pdf>
 [^2]: <https://www.quora.com/What-are-some-competitive-programming-problems-with-really-elegant-solutions/answer/Michal-Fori%C5%A1ek>
-[^3]: <https://apps.topcoder.com/wiki/display/tc/SRM+615>
+[^3]: <https://web.archive.org/web/20221014060618/https://apps.topcoder.com/wiki/display/tc/SRM+615>
 [^need]: Citation needed!

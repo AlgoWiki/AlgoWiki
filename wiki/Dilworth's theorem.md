@@ -11,7 +11,7 @@ If the poset is represented as a [directed acyclic graph](Directed acyclic graph
 ## Problems
 - [Fat Hobbits](http://acm.timus.ru/problem.aspx?space=1&num=1533)
 - [Nested Dolls](https://archive.algo.is/icpc/nwerc/ncpc/2007/ncpc2007problems.pdf)
-- [Incubator](https://community.topcoder.com/stat?c=problem_statement&pm=12080) [^1]
+- [Incubator](http://web.archive.org/web/20210428031648/https://community.topcoder.com/stat?c=problem_statement&pm=12080) [^1]
 - [Gentrification](http://codeforces.com/gym/100591)
 - [Birthday](http://codeforces.com/contest/590/problem/E) [^2]
 
@@ -24,5 +24,5 @@ If the poset is represented as a [directed acyclic graph](Directed acyclic graph
 - [Partially Ordered Sets](http://codeforces.com/blog/entry/3781)
 
 
-[^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+557>
+[^1]: <https://web.archive.org/web/20160123071054/http://apps.topcoder.com/wiki/display/tc/SRM+557>
 [^2]: <http://codeforces.com/blog/entry/21203>

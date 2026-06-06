@@ -166,7 +166,7 @@ The same idea generalizes from parity to relations modulo any $k$ (storing an
 integer offset instead of a bit), which is what the problem below needs.
 
 #### Problems
-- [Food Chain](http://poj.org/problem?id=1182)
+- [Food Chain](http://web.archive.org/web/20260307124252/http://poj.org/problem?id=1182)
 
 ## Edge deletion instead of insertion
 The union-find data structure can sometimes be used to support edge deletion instead of edge insertion. The idea is simply to simulate the sequence of operations in reverse, and then deletions become insertions. This only works when the sequence of operations is known beforehand.

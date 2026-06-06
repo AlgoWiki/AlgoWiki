@@ -27,7 +27,7 @@ The naive way of computing this recurrence with dynamic programming takes $O(n^3
 
 ## External links
 - [Dynamic Programming Optimizations](http://codeforces.com/blog/entry/8219)
-- [ZOJ 2860 Breaking Strings](https://apps.topcoder.com/forums/?module=Thread&threadID=579321&start=0&mc=17#823126)
-- [Commonly used DP state domains](https://apps.topcoder.com/forums/?module=Thread&threadID=697369&start=0&mc=22#1327577)
+- [ZOJ 2860 Breaking Strings](http://web.archive.org/web/20180817020104/http://apps.topcoder.com:80/forums/?module=Thread&threadID=579321&start=0&mc=17)
+- [Commonly used DP state domains](http://web.archive.org/web/20180920154800/http://apps.topcoder.com:80/forums/?module=Thread&threadID=697369&start=0&mc=22)
 
 [^1]: <https://www.hackerrank.com/contests/ioi-2014-practice-contest-2/challenges/guardians-lunatics-ioi14/editorial>

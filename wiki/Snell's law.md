@@ -15,12 +15,12 @@ $$
 
 ## Problems
 - [EllysThreeRivers](https://community.topcoder.com/stat?c=problem_statement&pm=11911&rd=14735) [^1]
-- [RemoteRover](https://community.topcoder.com/stat?c=problem_statement&pm=4022&rd=6534) [^2]
+- [RemoteRover](http://web.archive.org/web/20221006183932/https://community.topcoder.com/stat?c=problem_statement&pm=4022&rd=6534) [^2]
 - [Ironman](https://open.kattis.com/problems/ironman)
 
 ## External links
 - [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law)
 
 
-[^1]: <https://apps.topcoder.com/wiki/display/tc/SRM+543>
+[^1]: <http://web.archive.org/web/20120603014125/http://apps.topcoder.com:80/wiki/display/tc/SRM+543?>
 [^2]: <https://www.topcoder.com/tc?module=Static&d1=match_editorials&d2=srm235>

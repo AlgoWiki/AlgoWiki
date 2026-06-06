@@ -1,6 +1,6 @@
 ## Problems
 - [Introspective Caching](https://open.kattis.com/problems/caching) [^1]
-- [Painter's Dilemma](https://www.hackerrank.com/contests/ieeextreme-challenges/challenges/painters-dilemma)
+- [Painter's Dilemma](http://web.archive.org/web/20250514020052/https://www.hackerrank.com/contests/ieeextreme-challenges/challenges/painters-dilemma)
 
 ## External links
 - [Greedy Algorithms I](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf), optimal caching, pg. 33.

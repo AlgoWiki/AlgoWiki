@@ -11,7 +11,7 @@ Matroid partitioning can be reduced to Matroid intersection [^8].
 - [Rainbow Graph](https://open.kattis.com/problems/rainbowgraph) [^1]
 - [FoxAirline2](https://community.topcoder.com/stat?c=problem_statement&pm=14194&rd=16689)
 - [ColoringEdgesDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=14909&rd=17198) [^2]
-- [JobPlanner](https://community.topcoder.com/stat?c=problem_statement&pm=6177) [^3]
+- [JobPlanner](http://web.archive.org/web/20191117124912/https://community.topcoder.com/stat?c=problem_statement&pm=6177) [^3]
 - [Seollal](http://codeforces.com/contest/1284/problem/G) [^9]
 - [XorGame](https://contest.yandex.com/algorithm2017/contest/4737/problems/F/) [^4] [^5]
 
@@ -36,7 +36,7 @@ Matroid partitioning can be reduced to Matroid intersection [^8].
 
 [^1]: <http://codeforces.com/blog/entry/58442?#comment-421990>
 [^2]: <https://www.topcoder.com/blog/tco18-algorithm-round-3a-editorials/>
-[^3]: <https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tccc07_rd2>
+[^3]: <http://web.archive.org/web/20160114011732/https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tccc07_rd2>
 [^4]: <http://codeforces.com/blog/entry/53354?#comment-374026>
 [^5]: <https://www.topcoder.com/blog/how-to-come-up-with-problem-ideas/>
 [^6]: <https://petr-mitrichev.blogspot.com/2017/12/a-transversal-week.html>

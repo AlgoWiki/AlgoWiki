@@ -12,14 +12,14 @@ $$
 
 
 ## Problems
-- [Necklace of Beads](http://poj.org/problem?id=1286)
-- [TheBeautifulBoard](https://community.topcoder.com/stat?c=problem_statement&pm=9975)
-- [Magic Bracelet](http://poj.org/problem?id=2888)
+- [Necklace of Beads](http://web.archive.org/web/20260314202639/http://poj.org/problem?id=1286)
+- [TheBeautifulBoard](https://web.archive.org/web/20210510210217/https://community.topcoder.com/stat?c=problem_statement&pm=9975)
+- [Magic Bracelet](http://web.archive.org/web/20260114042617/http://poj.org/problem?id=2888)
 - [Lucy and the Flowers](https://www.codechef.com/problems/DECORATE)
 - [Sorting Machine](http://www.spoj.com/problems/SRTMACH/)
 - [Pizza Toppings](https://projecteuler.net/problem=281)
 - [Alphabet soup](https://archive.algo.is/icpc/swerc/2011/SWERC-set.pdf) [^2]
-- [Drum Decorator](https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/000000000043373a) [^1]
+- [Drum Decorator](https://web.archive.org/web/20240422103302/http://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/000000000043373a) [^1]
 - [Count the Necklaces](https://www.hackerrank.com/contests/infinitum12/challenges/count-the-necklaces)
 - [Cube Coloring](https://csacademy.com/contest/beta-round-8/task/cube-coloring/)
 

@@ -14,7 +14,7 @@ categories: Algorithm techniques, Graph algorithms
 ## Angular sweep
 
 ### Problems
-- [Logging](https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433d3a)
+- [Logging](https://github.com/google/coding-competitions-archive/tree/main/codejam/2015/round_1a)
 - [Phone Cell](http://contest.felk.cvut.cz/07cerc/solved/c/)
 - [Beacons](https://open.kattis.com/problems/beacons)
 
@@ -24,7 +24,7 @@ categories: Algorithm techniques, Graph algorithms
 - [Line segment intersection]()
 
 ## External links
-- [Line Sweep Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/line-sweep-algorithms/) (and [code](https://apps.topcoder.com/forums/?module=Thread&threadID=684537&start=0) by the same author)
+- [Line Sweep Algorithms](https://web.archive.org/web/20191215084011/https://www.topcoder.com/community/data-science/data-science-tutorials/line-sweep-algorithms/) (and [code](https://web.archive.org/web/20221206204002/https://apps.topcoder.com/forums/?module=Thread&threadID=684537) by the same author)
 - [Plane-sweep: A general-purpose algorithm for two-dimensional problems illustrated using line segment intersection](http://www.jn.inf.ethz.ch/education/script/P6_C25.pdf)
 - [Lecture 24: Geometry](http://courses.csail.mit.edu/6.006/spring11/lectures/lec24.pdf)
 - [Intersection of a Set of Segments](http://geomalgorithms.com/a09-_intersect-3.html)

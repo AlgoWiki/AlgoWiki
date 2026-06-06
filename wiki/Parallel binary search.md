@@ -4,7 +4,7 @@ categories: Algorithm techniques
 
 ## Problems
 - [Stamp Rally](http://agc002.contest.atcoder.jp/tasks/agc002_d) [^1]
-- [LimitedMemorySeries1](https://community.topcoder.com/stat?c=problem_statement&pm=14088)
+- [LimitedMemorySeries1](http://web.archive.org/web/20230604174901/https://community.topcoder.com/stat?c=problem_statement&pm=14088)
 - [Travel in HackerLand](https://www.hackerrank.com/contests/may-world-codesprint/challenges/travel-in-hackerland)
 - [Meteors](http://www.spoj.com/problems/METEORS/)
 

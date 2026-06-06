@@ -23,7 +23,7 @@ It's possible to adapt Mo's algorithm to data structures that only support inser
 - [Sqrt-decomposition]()
 
 ## External links
-- [MO’s Algorithm (Query square root decomposition)](https://blog.anudeep2011.com/mos-algorithm/)
+- [MO’s Algorithm (Query square root decomposition)](http://web.archive.org/web/20221206004910/https://blog.anudeep2011.com/mos-algorithm/)
 - [Mo's algorithm](http://codeforces.com/blog/entry/7383)
 - [Mo's algorithm](https://www.hackerearth.com/practice/notes/mos-algorithm/)
 

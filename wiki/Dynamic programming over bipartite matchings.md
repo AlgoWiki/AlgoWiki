@@ -1,5 +1,5 @@
 ## Problems
-- [LittleElephantAndPermutationDiv1](https://community.topcoder.com/stat?c=problem_statement&pm=12735)
+- [LittleElephantAndPermutationDiv1](http://web.archive.org/web/20150407053258/http://community.topcoder.com/stat?c=problem_statement&pm=12735)
 - [Hakone](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2439) (Japanese)
 
 ## See also

@@ -272,7 +272,7 @@ $O(A \log A)$ where $A$ is the maximum value.
 
 ### Segmented sieve
 
-- [Prime Generator (PRIME1)](https://www.spoj.com/problems/PRIME1/)
+- [Prime Generator (PRIME1)](http://web.archive.org/web/20250610234324/https://www.spoj.com/problems/PRIME1/)
 
 ## See also
 
