@@ -236,6 +236,84 @@ inverse. Common approaches are:
 - Use a [Segment tree]() or sparse table when the endpoints are not
   both moving forward.
 
+The **two-stacks queue** works for any associative aggregate. Each stack stores
+pairs $(value, running\_aggregate)$. The back stack accumulates new elements; the
+front stack is reversed on demand. Because every element crosses the boundary at
+most once, the amortized cost per operation is $O(1)$.
+
+~~~ {.cpp}
+template<typename T>
+struct MinQueue {
+    vector<pair<T,T>> front_st, back_st;  // (value, running_min)
+
+    void push(T x) {
+        T m = back_st.empty() ? x : min(x, back_st.back().second);
+        back_st.push_back({x, m});
+    }
+
+    void pop() {
+        if (front_st.empty()) {
+            while (!back_st.empty()) {
+                T x = back_st.back().first;
+                back_st.pop_back();
+                T m = front_st.empty() ? x : min(x, front_st.back().second);
+                front_st.push_back({x, m});
+            }
+        }
+        front_st.pop_back();
+    }
+
+    T query() const {
+        T res = numeric_limits<T>::max();
+        if (!front_st.empty()) res = min(res, front_st.back().second);
+        if (!back_st.empty()) res = min(res, back_st.back().second);
+        return res;
+    }
+};
+~~~
+
+Using `MinQueue`, a fixed-window minimum is a single push per step, a single pop
+per step once the window is full, and a query for the answer — no monotone deque
+is needed. Replace `min` with `max`, `gcd`, `|`, or `&` to handle other
+non-invertible aggregates.
+
+### DP transitions over a sliding range
+
+[Dynamic programming](Dynamic programming) transitions of the form
+
+$$
+dp[i] = \min_{j \in [i-k,\, i-1]} dp[j] + \text{cost}(i)
+$$
+
+appear in problems like minimum-cost jumping, shortest paths on a DAG with
+bounded edge lengths, and various knapsack variants. A monotone deque reduces
+each transition from $O(k)$ to $O(1)$ by maintaining candidate indices in
+increasing order of $dp$ value and evicting indices that have left the window.
+
+~~~ {.cpp}
+// dp[i] = min cost to reach position i; can jump from any j in [i-k, i-1]
+long long min_cost_jump(const vector<int>& cost, int k) {
+    int n = cost.size();
+    vector<long long> dp(n, LLONG_MAX / 2);
+    dp[0] = cost[0];
+    deque<int> dq;  // indices, dp[front] is minimum
+    dq.push_back(0);
+
+    for (int i = 1; i < n; i++) {
+        while (!dq.empty() && dq.front() < i - k) dq.pop_front();
+        dp[i] = dp[dq.front()] + cost[i];
+        while (!dq.empty() && dp[dq.back()] >= dp[i]) dq.pop_back();
+        dq.push_back(i);
+    }
+    return dp[n - 1];
+}
+~~~
+
+The key insight is that once `dp[i]` is computed, any future index `i' > i` will
+always prefer `dp[i]` over `dp[j]` for any `j < i` with `dp[j] >= dp[i]`, so
+such `j` can be discarded immediately. This is the same monotone invariant as in
+the sliding minimum, applied to DP values instead of array values.
+
 ## Problems
 
 ### Basic variable windows
@@ -317,6 +395,54 @@ and upper half in two multisets, together with their sums. Rebalance so the
 lower half contains the median. The cost is
 `median * lower_size - lower_sum + upper_sum - median * upper_size`; update the
 two multisets when the window slides.
+
+</details>
+
+### DP with sliding-range transitions
+
+- [Subarray Sums II](https://cses.fi/problemset/task/1661/) (CSES): count
+  subarrays with a given sum (values can be negative — prefix sums plus a map,
+  but illuminates the boundary between sliding windows and prefix techniques).
+- [Dice Combinations](https://cses.fi/problemset/task/1633/) (CSES): count ways
+  to form sum $n$ using dice faces 1–6; the transition sums the last 6 DP states.
+- [Elevator Rides](https://cses.fi/problemset/task/1653/) (CSES, harder): bitmask
+  DP where the knapsack transition over a fixed-size window applies.
+- [Frog Jump](https://cses.fi/problemset/task/1628/) (CSES): minimum-cost jump
+  with bounded jump length, the direct template for the deque DP above.
+- [Deque DP](https://codeforces.com/problemset/problem/436/E) (Codeforces): DP
+  optimized with a sliding minimum over a deque.
+
+<details>
+<summary>Solution sketch — Dice Combinations</summary>
+
+Let $dp[i]$ be the number of ways to form sum $i$. The recurrence is
+
+$$
+dp[i] = \sum_{j=1}^{6} dp[i - j]
+$$
+
+This is a sum of a fixed-size window of width 6 in the DP array. Maintain a
+running sum of `dp[i-1]` through `dp[i-6]`, adding `dp[i]` and subtracting
+`dp[i-7]` at each step. Total time $O(n)$, no deque required since the
+operation is invertible.
+
+</details>
+
+<details>
+<summary>Solution sketch — Frog Jump</summary>
+
+Let $dp[i]$ be the minimum cost to reach stone $i$. The transition is
+
+$$
+dp[i] = \min_{j \in [\max(0,\, i-k),\, i-1]} dp[j] + |h[i] - h[j]|
+$$
+
+When the cost term depends on $j$, the deque template no longer directly applies
+because the objective is not separable. Instead, split the absolute value into
+two cases (when $h[j] \le h[i]$ and when $h[j] > h[i]$) and handle each with a
+separate deque tracking $dp[j] - h[j]$ and $dp[j] + h[j]$ respectively. For the
+simpler variant where the jump cost is just $dp[j]$ (a fixed cost per step),
+the standard monotone deque suffices.
 
 </details>
 
