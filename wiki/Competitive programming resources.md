@@ -1,7 +1,7 @@
 ## Books
 - [Competitive Programming 3](https://cpbook.net/) by Steven Halim and Felix Halim
 - [Competitive Programmer's Handbook](https://cses.fi/book.html) by Antti Laaksonen [^2]
-- [Principles of Algorithmic Problem Solving](http://www.csc.kth.se/~jsannemo/slask/main.pdf) by Johan Sannemo (in progress)
+- [Principles of Algorithmic Problem Solving](https://jsannemo.se/latest.pdf) by Johan Sannemo
 
 ### Math/geometry-oriented
 - [Trophy Hunting in the Infinite Jungle of Finitude](https://quasisphere.io/trophy.pdf) by Janne Junnila
